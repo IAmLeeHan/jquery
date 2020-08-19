@@ -1,0 +1,545 @@
+/*
+Theme Name: decentra Framework Template
+Description: Themed developed in Oct 2017, new clean and simplified layout.
+Author: louis xie
+Version: 1.0
+*/
+body,
+div,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pre,
+code,
+form,
+fieldset,
+legend,
+input,
+button,
+textarea,
+p,
+blockquote,
+th,
+td {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background: #fff;
+  color: #333;
+  font-size: 14px;
+  font-family: '微软雅黑', sans-serif;
+}
+td,
+th,
+caption {
+  font-size: 14px;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: normal;
+  font-size: 100%;
+}
+address,
+caption,
+cite,
+code,
+dfn,
+em,
+strong,
+th,
+var {
+  font-style: normal;
+  font-weight: normal;
+}
+a {
+  color: #333;
+  text-decoration: none;
+  -webkit-transition: all .3s;
+  -moz-transition: all .3s;
+  transition: all .3s;
+}
+a:hover {
+  text-decoration: none !important;
+  -webkit-transition: all .3s;
+  -moz-transition: all .3s;
+  transition: all .3s;
+}
+a:focus,
+a:hover {
+  text-decoration: none;
+  color: #FF0000;
+}
+em {
+  font-style: normal;
+}
+img {
+  border: 0;
+  vertical-align: middle;
+}
+img {
+  border: none;
+}
+ol,
+ul,
+li {
+  list-style: none;
+}
+input,
+textarea,
+select,
+button {
+  vertical-align: middle;
+  font-size: 14px;
+  font-family: inherit;
+  line-height: normal;
+  outline: none;
+}
+button {
+  cursor: pointer;
+}
+table {
+  border-collapse: collapse;
+}
+video {
+  object-fit: contain;
+}
+.clearfix:after {
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+.clearfix {
+  *zoom: 1;
+}
+.fl {
+  float: left;
+}
+.fr {
+  float: right;
+}
+.clear {
+  clear: both; 
+}
+.box {
+  width: 1200px;
+  margin: 0 auto;
+}
+/*------------------------------header start--------------------------------*/
+.kx-box{
+  margin:0 20px;
+  position: relative;
+}
+.kx-header{
+  width: calc(100% - 80px);
+  height: 103px;/*示例导航高度为60px,可根据需求修改*/
+  background: #fff;
+  border-bottom: 1px #e1e1e1 solid;
+  margin: 0 40px;
+}
+.kx-header .kx-logo{
+  display: block;
+  float: left;
+  height: 65px;
+  line-height: 65px;/*此处同导航高度，可根据需求修改*/
+  display: flex;
+  width: 120px;
+  margin-top: 20px;
+}
+.kx-header .kx-logo img{
+	width: 100%;
+}
+
+.kx-header .kx-nav{
+  float: right;
+  padding-left: 0;
+}
+.kx-header .kx-nav > li{
+  float: left;
+  list-style: none;
+  position: relative;
+  margin: 0 10px;
+}
+.kx-header .kx-nav > li > a{
+  display: block;
+  line-height: 103px;
+  font-size: 19px;
+  color: #222;
+  text-decoration: none;
+  position: relative;
+  width: 160px;
+  text-align: center;
+  font-family: SourceHanSansCN-Normal;
+}
+
+.kx-header .kx-nav > li > a:after{
+  position: absolute;
+  content: '';
+  left: 0;
+  bottom: 0;
+  background: #3cc8b4;
+  width: 100%;
+  height: 4px;
+
+  
+/*此处为CSS3动画代码 为导航hover动画 */
+  -webkit-transform: scale(0,1);
+  -ms-transform: scale(0,1);
+  -o-transform: scale(0,1);
+  transform: scale(0,1);
+  -webkit-transition: all .75s;
+  -o-transition: all .75s;
+  transition: all .75s;
+}
+
+/*.kx-header .kx-nav > li > a:hover:after{
+  -webkit-transform: scale(1,1);
+  -ms-transform: scale(1,1);
+  -o-transform: scale(1,1);
+  transform: scale(1,1);
+}*/
+.kx-header .kx-nav li a:hover {
+  color: #1990ff;
+}
+.kx-header .kx-nav > li > .kx-active{
+  /*-webkit-transform: scale(1,1);
+  -ms-transform: scale(1,1);
+  -o-transform: scale(1,1);
+  transform: scale(1,1);*/
+ 	color: #1990ff;
+ 	line-height: 103px;
+}
+
+.kx-header .kx-nav li .kx-slide-btn{
+  line-height: 60px;
+cursor: pointer;
+}
+.kx-header .kx-nav li .kx-slide-btn img{
+  width: 40px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+.kx-header .kx-nav li .kx-slide-btn span{
+  font-size: 16px;
+color: #fff;
+}
+
+.kx-header .kx-nav li .kx-header-slide{
+  width: 150px;
+  position: absolute;
+  left: 0;
+  top: 60px;
+  background: #fff;
+  -webkit-box-shadow: 0 0 10px 1px rgba(0,0,0,.2);
+  box-shadow: 0 0 10px 2px rgba(0,0,0,.2);
+  padding: 0 10px;
+  padding: 10px 0;
+  border-radius: 0 0 5px 5px;
+  display: none;
+}
+
+.kx-header .kx-nav li .kx-header-slide li{
+  padding-left: 0;
+  list-style: none;
+  line-height: 35px;
+
+}
+.kx-header .kx-nav li .kx-header-slide li a{
+  text-decoration: none;
+  font-size: 14px;
+  color: #333;
+  padding-left: 25px;
+  display: block;
+
+}
+/*header over        */
+
+
+
+#pageTitle{
+    font-size: .42rem;
+    line-height: .5333rem;
+    color: #666666;
+    background: #FFFFFF;
+    text-align: center;
+    padding: .32rem 0;
+    position: relative;
+}
+#pageTitle .goback{
+    width: .58666rem;
+    height: .58666rem;
+    position: absolute;
+    left: .5333rem;
+    background: url("../images/merchantServices/icon_blak@2x.png") no-repeat;
+    background-size: 100% 100%;
+}
+#pageTitle .rightBox{
+    position: absolute;
+    right: .5333rem;
+    top: 0.3rem;
+    font-size: .37333rem;
+    color: #999;
+}
+/*footer 开始*/
+
+.footer{
+  width: 100%;
+  height: 1.3333rem;
+  background: #fff;
+  color: #fff;
+  position: fixed;
+  bottom: -1px;
+  left: 0;
+    z-index: 99999;
+  overflow: hidden;
+    box-shadow: 0 0 10px 2px rgba(0, 0, 0, 0.1);
+}
+
+.footer .footer-wrap ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #999999;
+    font-size: .32rem;
+    line-height: .32rem;
+}
+.footer .footer-wrap ul li div{
+    width: .533333rem;
+    height: .533333rem;
+    margin: .16rem auto .15rem;
+}
+.footer .footer-wrap a{
+    font-family: SourceHanSansCN-Regular;
+    color: #999999;
+}
+.footer .footer-wrap ul .footer-home div{
+    background: url("../images/tabbar/home.png") no-repeat center center;
+    background-size: 100% 100%;
+}
+.footer .footer-wrap ul .footer-home1 div{
+    background: url("../images/tabbar/home-active.png") no-repeat center center;
+    background-size: 100% 100%;
+}
+.footer .footer-wrap ul .footer-home1 p{
+    color: #5EBBFF;
+}
+.footer .footer-wrap ul .footer-place div{
+    background: url("../images/tabbar/place.png") no-repeat center center;
+    background-size: 100% 100%;
+}
+.footer .footer-wrap ul .footer-place1 div{
+    background: url("../images/tabbar/place-active.png") no-repeat center center;
+    background-size: 100% 100%;
+}
+.footer .footer-wrap ul .footer-place1 p{
+    color: #5EBBFF;
+}
+.footer .footer-wrap ul .footer-find div{
+    background: url("../images/tabbar/find.png") no-repeat center center;
+    background-size: 100% 100%;
+}
+.footer .footer-wrap ul .footer-find1 div{
+    background: url("../images/tabbar/find-active.png") no-repeat center center;
+    background-size: 100% 100%;
+}
+.footer .footer-wrap ul .footer-find1 p{
+    color: #5EBBFF;
+}
+.footer .footer-wrap ul .footer-vr div{
+    background: url("../images/tabbar/vr.png") no-repeat center center;
+    background-size: 100% 100%;
+}
+.footer .footer-wrap ul .footer-vr1 div{
+    background: url("../images/tabbar/vr-active.png") no-repeat center center;
+    background-size: 100% 100%;
+}
+.footer .footer-wrap ul .footer-vr1 p{
+    color: #5EBBFF;
+}
+.footer .footer-wrap ul .footer-my div{
+    background: url("../images/tabbar/my.png") no-repeat center center;
+    background-size: 100% 100%;
+}
+.footer .footer-wrap ul .footer-my1 div{
+    background: url("../images/tabbar/my-active.png") no-repeat center center;
+    background-size: 100% 100%;
+}
+.footer .footer-wrap ul .footer-my1 p{
+    color: #5EBBFF;
+}
+/*模板页面规则对应样式，实际开发中中请删除*/
+
+.kx-rule{
+  width: 100%;
+  margin-top: 80px;
+}
+
+.kx-rule h1{
+  text-align: center;
+  font-size: 36px;
+  color: #333;
+  font-family: 'Chelsea Market', Georgia, serif
+  
+}
+
+.kx-rule h2{
+  text-align: center;
+  font-size: 18px;
+  color: #999;
+  font-family: 'Chelsea Market', Georgia, serif;
+  margin-top: 15px;
+}
+.kx-rule h3{
+  text-align: center;
+  font-size: 18px;
+  color: #999;
+  font-family: 'Chelsea Market', Georgia, serif;
+  margin-top: 15px;
+}
+.kx-rule ul{
+  width: 850px;
+  margin: 60px auto;
+}
+
+.kx-rule ul li{
+  line-height: 50px;
+  font-size: 24px;
+}
+
+/*模板页面规则对应样式，实际开发中中请删除*/
+
+/*@media (min-width:960px) and (max-width:1200px) {*/
+	/*.kx-header .kx-nav > li > a{*/
+		/*width: 100px;*/
+	/*}*/
+	/*.cont-mains{*/
+		/*width: 96%;*/
+		/*margin: 0 auto;*/
+	/*}*/
+/*}*/
+
+/*@media screen and (max-width:960px) {*/
+  /*.box{*/
+    /*width:90%;*/
+    /*margin:0 auto;*/
+  /*}*/
+  /*.kx-header{*/
+  	/*width: calc(100% - 20px);*/
+  	/*margin: 0 10px;*/
+  	/*height: auto;*/
+  /*}*/
+  /*.kx-nav{*/
+  	/*overflow: hidden;*/
+  /*}*/
+  /*.kx-nav li{*/
+  	/*width: 26%;*/
+  /*}*/
+  /*.kx-header .kx-nav > li > a{*/
+  	/*width: 100%;*/
+  	/*font-size: 15px;*/
+  	/*line-height: 36px;*/
+  /*}*/
+  /*.kx-header .kx-nav > li > .kx-active{*/
+  	/*line-height: 36px;*/
+  /*}*/
+  /**/
+  /**/
+  /*.footer{*/
+  	/*height: auto;*/
+  /*}*/
+  /*.footer .botmLogo{*/
+  	/*margin: 0 auto;*/
+  /*}*/
+  /*.footer .footer-wrap{*/
+  	/*width: 100%;*/
+  /*}*/
+  /*.ft-list li{*/
+  	/*width: 50%;*/
+  	/*float: left;*/
+  	/*text-align: center;*/
+  	/*padding-bottom: 30px;*/
+  /*}*/
+  /*.ft-list li:last-child{*/
+  	/*width: 50%;*/
+  /*}*/
+  /*.ft-bt-txt{*/
+  	/*padding: 30px 0;*/
+  	/*text-align: center;*/
+  /*}*/
+  /*.ft-list li:first-child {*/
+	    /*width: 100%;*/
+	    /*display: block;*/
+	    /*float: none;*/
+	/*}*/
+/*}*/
+
+
+/* 
+@font-face{
+    font-family: 'YaHei Consolas Hybrid';
+    src : url('../fonts/yaheiconsolashybrid.ttf');
+}
+
+@font-face{
+    font-family: 'PoppinsBold';
+    src : url(../font/Poppins-Bold.ttf);
+}
+@font-face{
+    font-family: 'PoppinsLight';
+    src : url(../font/Poppins-Light.ttf);
+}
+@font-face{
+    font-family: 'PoppinsMedium';
+    src : url(../font/Poppins-Medium.ttf);
+}
+@font-face{
+    font-family: 'PoppinsRegular';
+    src : url(../font/Poppins-Regular.ttf);
+}
+@font-face{
+    font-family: 'PoppinsSemiBold';
+    src : url(../font/Poppins-SemiBold.ttf);
+}
+@font-face{
+    font-family: 'SourceHanSansCN-Bold';
+    src : url(../font/SourceHanSansCN-Bold.otf);
+}
+@font-face{
+    font-family: 'SourceHanSansCN-ExtraLight';
+    src : url(../font/SourceHanSansCN-ExtraLight.otf);
+}
+@font-face{
+    font-family: 'SourceHanSansCN-Heavy';
+    src : url(../font/SourceHanSansCN-Heavy.otf);
+}
+@font-face{
+    font-family: 'SourceHanSansCN-Light';
+    src : url(../font/SourceHanSansCN-Light.otf);
+}
+@font-face{
+    font-family: 'SourceHanSansCN-Medium';
+    src : url(../font/SourceHanSansCN-Medium.otf);
+}
+@font-face{
+    font-family: 'SourceHanSansCN-Normal';
+    src : url(../font/SourceHanSansCN-Normal.otf);
+}
+@font-face{
+    font-family: 'SourceHanSansCN-Regular';
+    src : url(../font/SourceHanSansCN-Regular.otf);
+} */

@@ -1,0 +1,53 @@
+.shippingAddress{
+    border-top: 1px #eee solid;
+    padding: 0 .53333rem 3.6rem;
+}
+.shippingAddress ul li{
+    padding: .64rem 0;
+    border-bottom: 1px #eee solid;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.info h3{
+    font-size: .42666rem;
+    color: #333333;
+    line-height: .58666rem;
+    font-weight: bold;
+    padding-bottom: .21333rem;
+}
+.info h3 span{
+    margin-right: .42666rem;
+}
+.info p{
+    font-size: .32rem;
+    color: #999;
+    line-height: .45333rem;
+}
+.info p i{
+    font-style: normal;
+    color: #FF7F7F;
+}
+.edit{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.edit img{
+    width: .42666rem;
+    height: .42666rem;
+    margin-left: .64rem;
+}
+
+
+.submit{
+    height: 1.17333rem;
+    line-height: 1.17333rem;
+    margin: 0 .53333rem;
+    background: linear-gradient(to bottom, #64E1FF 0%,#5EBAFF 100%);
+    color: #fff;
+    font-size: .42666rem;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 3px;
+}

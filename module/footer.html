@@ -1,0 +1,54 @@
+<div class="footer-wrap">
+	<ul>
+		<a href="index.html">
+			<li class="footer-home">
+				<div></div>
+				<p>首页</p>
+			</li>
+		</a>
+		<a href="destination.html">
+			<li class="footer-place">
+				<div></div>
+				<p>目的地</p>
+			</li>
+		</a>
+		<a href="recommend.html">
+			<li class="footer-find">
+				<div></div>
+				<p>发现</p>
+			</li>
+		</a>
+		<a href="panoramic.html">
+			<li class="footer-vr">
+				<div></div>
+				<p>全景</p>
+			</li>
+		</a>
+		<a href="personal.html">
+			<li class="footer-my">
+				<div></div>
+				<p>我的</p>
+			</li>
+		</a>
+	</ul>
+</div>
+	
+	
+<script>
+	console.log(window.location.href)
+	if (window.location.href.split('index.html').length > 1) {
+		$('.footer-wrap li').eq(0).addClass('footer-home1')
+	}
+    if (window.location.href.split('destination.html').length > 1) {
+        $('.footer-wrap li').eq(1).addClass('footer-place1')
+    }
+    if (window.location.href.split('recommend.html').length > 1) {
+        $('.footer-wrap li').eq(2).addClass('footer-find1')
+    }
+    if (window.location.href.split('panoramic.html').length > 1) {
+        $('.footer-wrap li').eq(3).addClass('footer-vr1')
+    }
+    if (window.location.href.split('personal.html').length > 1) {
+        $('.footer-wrap li').eq(4).addClass('footer-my1')
+    }
+</script>

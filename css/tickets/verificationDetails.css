@@ -1,0 +1,75 @@
+.verificationDetails .orderInfo{
+  padding: .4267rem .5333rem;
+  height: 1.5467rem;
+  display: flex;
+  flex-flow: column;
+  justify-content: space-between;
+}
+.verificationDetails .orderInfo p:first-child{
+  font-size: .4267rem;
+  font-weight: 600;
+  color: #333333;
+  line-height: .5867rem;
+}
+.verificationDetails .orderInfo p:last-child span:first-child{
+  font-size: .3733rem;
+  font-weight: 400;
+  color: #333333;
+  line-height: .5333rem;
+  margin-right: .4267rem;
+}
+.verificationDetails .orderInfo p:last-child span:last-child{
+  font-size: .3733rem;
+  font-weight: 400;
+  color: #666;
+  line-height: .5333rem;
+}
+.verificationDetails .segmentation{
+  width: 100vw;
+  height: .1333rem;
+  background: #F5F5F5;
+}
+.verificationDetails .QR{
+  height: 5.1733rem;
+  padding: .4267rem .5333rem;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: .0267rem solid #eee;
+}
+.verificationDetails .QR p span:first-child{
+  font-size: .3733rem;
+  font-weight: 400;
+  color: #333333;
+}
+.verificationDetails .QR p span:last-child{
+  font-size: .3733rem;
+  font-weight: 400;
+  color: #666;
+}
+.verificationDetails .userInfo{
+  padding: .64rem .5333rem;
+}
+.verificationDetails .userInfo h2{
+  font-weight: 600;
+  font-size: .5333rem;
+  color: #333;
+  line-height: .7467rem;
+  margin-bottom: .4267rem;
+}
+.verificationDetails .userInfo p{
+  margin-bottom: 8px;
+  line-height: .5333rem;
+  line-height: .5333rem;
+}
+.verificationDetails .userInfo p span:first-child{
+  font-size: .3733rem;
+  font-weight: 400;
+  color: #333;
+}
+.verificationDetails .userInfo p span:last-child{
+  font-size: .3733rem;
+  font-weight: 400;
+  color: #666;
+}

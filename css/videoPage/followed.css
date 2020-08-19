@@ -1,0 +1,229 @@
+.videoPlay{
+  /* width: 10rem; */
+  height: 100vh;
+  background: skyblue;
+  position: relative;
+}
+.videoPlay img{
+  width:100%;
+  height: 100%;
+}
+.videoPlay .shadow{
+  position: absolute;
+  top:0;
+  left: 0;
+  /* width: 10rem; */
+  height: 100vh;
+  z-index: 1;
+}
+.videoPlay .Header{
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  width: calc(100% - 1.0667rem);
+  height: 1.7067rem;
+  display: flex;
+  align-items: center;
+  padding: 0 .5333rem;
+}
+.videoPlay .Header img{
+  width: .5867rem;
+  height: .5867rem;
+}
+.videoPlay .Header .menu{
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+.videoPlay .Header .menu li{
+  color: #666;
+  font-size: 14px;
+  font-weight: 600;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  margin: 0 .32rem;
+}
+.videoPlay .Header .menu .active{
+  color: #fff;
+}
+.videoPlay .Header .menu .active p{
+  width: .32rem;
+  height: 2px;
+  background: #fff;
+  margin-top: .1067rem;
+}
+.videoPlay .description{
+  width: 6.9333rem;
+  height: 2.56rem;
+  position: absolute;
+  left: .5333rem;
+  bottom: 1.7333rem;
+  display: flex;
+  flex-flow: column;
+  justify-content: space-between;
+}
+.videoPlay .description .scenicAreaName{
+  width: 6rem;
+  height: .96rem;
+  background: url('../../images/videoPage/mengceng.png') no-repeat;
+  background-size: 100% 100%;
+  display: flex;
+  align-items: center;
+}
+.videoPlay .description .scenicAreaName img{
+  width: .64rem;
+  height: .64rem;
+  margin:0 .1067rem 0 .2133rem;
+}
+.videoPlay .description .scenicAreaName span{
+  font-size: 14px;
+  color: #fff;
+}
+.videoPlay .info{
+  width: 6.9333rem;
+  height: 1.1467rem;
+  font-size: .3733rem;
+  color: #fff;
+  line-height: .5867rem;
+  overflow: hidden;
+}
+.videoPlay .info span{
+  color: #5EBBFF;
+}
+.videoPlay .btnBox{
+  width: 1.28rem;
+  height: 7.8133rem;
+  position: absolute;
+  right: 20px;
+  bottom: 2.7733rem;
+  display: flex;
+  flex-flow: column;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 10;
+}
+.videoPlay .btnBox .avatar{
+  width: 1.28rem;
+  height: 1.28rem;
+  position: relative;
+}
+.videoPlay .btnBox .avatar img{
+  width: 1.28rem;
+  height: 1.28rem;
+}
+.videoPlay .btnBox .avatar .plus{
+  width: .4267rem;
+  height: .4267rem;
+  position: absolute;
+  bottom: -0.2133rem;
+  left:.4533rem;
+  display: none;
+}
+.videoPlay .btnBox .btn{
+  width: 48px;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}
+.videoPlay .btnBox .btn img{
+  width: 1.28rem;
+  height: 1.28rem;
+}
+.videoPlay .btnBox .btn span{
+  padding-top: .1067rem;
+  font-size: .32rem;
+  font-weight: 400;
+  color: #fff;
+}
+.videoPlay .replyPanel{
+  width: 100%;
+  height: 10.8267rem;
+  background: rgba(255, 255, 255, 1);
+  border-radius: 8px 8px 0px 0px;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  z-index: 11;
+  display: none;
+}
+.videoPlay .videoReply {
+  padding: .5333rem .5333rem 2.1333rem .5333rem;
+}
+.videoPlay .videoReply p{
+  text-align: center;
+  font-size: 11px;
+  font-weight: 400;
+  color: #999999;
+}
+.videoPlay .videoReply .comment{
+  height: 7.2rem;
+  overflow-y: auto;
+}
+.videoPlay .videoReply .commentOnItem{
+  display: flex;
+  justify-content: space-between;
+  margin-top: .6667rem;
+  overflow: hidden;
+}
+.videoPlay .videoReply .commentOnItem .avatar{
+  width: .8533rem;
+  height: .8533rem;
+  border-radius: 50%;
+}
+.videoPlay .videoReply .commentOnItem .content{
+  /* width: 6.6667rem; */
+  flex: 1;
+  max-height: 1.92rem;
+  margin-left: .2133rem;
+  margin-right: .6933rem;
+}
+.videoPlay .videoReply .commentOnItem .content span{
+  font-size: .2933rem;
+  font-weight: 400;
+  color: #999999;
+}
+.videoPlay .videoReply .commentOnItem .content p{
+  font-size: .32rem;
+  color: #333333;
+  font-weight: 400;
+  line-height: .5333rem;
+  text-align: left;
+}
+.videoPlay .videoReply .commentOnItem .like{
+  width: .64rem;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}
+.videoPlay .videoReply .commentOnItem .like .likeImg{
+  width: .64rem;
+  height: .64rem;
+  background: url('../../images/videoPage/like_default.png') no-repeat;
+  background-size: 100% 100%;
+}
+.videoPlay .videoReply .commentOnItem .active .likeImg{
+  width: .64rem;
+  height: .64rem;
+  background: url('../../images/videoPage/like_active.png') no-repeat;
+  background-size: 100% 100%;
+}
+.videoPlay .videoReply .commentOnItem .like span{
+  font-size: 11px;
+  color: #DBE0DF;
+  font-weight: 400;
+}
+.videoPlay .videoReply .inputBox{
+  width: calc(100vw - 1.6rem);
+  height: .8533rem;
+  background: #F5F5F5;
+  position: fixed;
+  bottom: 45px;
+  line-height: .8533rem;
+  padding: 0 .2667rem;
+  left: .5333rem;
+  font-size: .32rem;
+  color: #AEB7B4;
+  font-weight: 400;
+}

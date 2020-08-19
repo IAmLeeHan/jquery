@@ -1,0 +1,76 @@
+html,body{
+    height: 100%;
+}
+.addshippingAddress{
+    border-top: 1px solid #eee;
+    background: #fff;
+}
+.addshippingAddress ul{
+    padding: 0 .53333rem;
+}
+.addshippingAddress ul li{
+    border-bottom: 1px #eee solid;
+    display: flex;
+    justify-content: flex-start;
+    align-content: center;
+    padding: .58666rem 0;
+}
+.addshippingAddress ul li:last-child{
+    border: 0;
+}
+.addshippingAddress ul li p{
+    font-size: .37333rem;
+    line-height: .53333rem;
+    color: #333333;
+    width: 1.4933rem;
+    font-weight: bold;
+    margin-right: .64rem;
+}
+.addshippingAddress ul li input{
+    font-size: .37333rem;
+    border: 0;
+    outline: none;
+    flex: 1;
+}
+#picker{
+    padding-right: 1rem;
+    background: url("../images/index/icon_place.png") no-repeat right center;
+    background-size: .42666rem .42666rem;
+}
+.settingBtn{
+    padding: .58666rem .53333rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: .37333rem;
+    margin-bottom: 3rem;
+    color: #333;
+    font-weight: bold;
+}
+.settingBtn div{
+    width: .4rem;
+    height: .4rem;
+    background: #fff;
+    border-radius: 50%;
+    border: 1px #999 solid;
+}
+.settingBtnActive p{
+    color: #5EBBFF;
+}
+.settingBtnActive div{
+    background: url(../images/index/icon_yes.jpg) no-repeat center center;
+    background-size: .45rem .44rem;
+    border: 0;
+}
+
+.submit{
+    height: 1.17333rem;
+    line-height: 1.17333rem;
+    margin: 0 .53333rem;
+    background: linear-gradient(to bottom, #64E1FF 0%,#5EBAFF 100%);
+    color: #fff;
+    font-size: .42666rem;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 3px;
+}

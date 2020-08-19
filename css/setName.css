@@ -1,0 +1,26 @@
+.setNameBox{
+    padding: 0 .53333rem;
+    border-top: 1px #eee solid;
+}
+.setNameBox-child{
+    border-bottom: 1px solid #eee;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: .58666rem 0 .42666rem;
+}
+.name{
+    font-size: .42666rem;
+    height: .58666rem;
+    border: 0;
+    background: transparent;
+    line-height: .58666rem;
+    outline: none;
+    margin-left: .42666rem;
+    color: #333333;
+}
+.close{
+    width: .42666rem;
+    height: .42666rem;
+    display: block;
+}

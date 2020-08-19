@@ -1,0 +1,71 @@
+.frequentTravelers{
+  width: 100vw;
+  background: #fff;
+}
+.frequentTravelers .pageTitle{
+  padding: 0 .5333rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 1.44rem;
+  border-bottom: .0267rem solid #eee;
+}
+.frequentTravelers .pageTitle img{
+  width: .5867rem;
+  height: .5867rem;
+}
+.frequentTravelers .pageTitle p{
+  font-size: .3733rem;
+  font-weight: 400;
+  color: #666666;
+}
+.frequentTravelers .pageTitle span{
+  font-size: .3733rem;
+  font-weight: 400;
+  color: #999999;
+}
+
+.frequentTravelers .traveler{
+  padding: .5333rem;
+}
+.frequentTravelers .traveler li{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 2.1333rem;
+  border-bottom: 1px solid #eee;
+}
+.frequentTravelers .traveler li p{
+  font-size: .4267rem;
+  font-weight: 600;
+  color: #333333;
+}
+.frequentTravelers .traveler li p .default{
+  font-size: .32rem;
+  font-weight: 400;
+  color: #FF7F7F;
+}
+
+
+.frequentTravelers .addTraveler{
+  width: calc(100% - 1.0667rem);
+  height: 2.3467rem;
+  background: #fff;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  padding: 0 .5333rem;
+}
+.frequentTravelers .addTraveler .btn{
+  width:100%;
+  height:1.1733rem;
+  background:linear-gradient(140deg,rgba(100,225,255,1) 0%,rgba(94,186,255,1) 100%);
+  border-radius:.1067rem;
+  text-align: center;
+  line-height: 1.1733rem;
+}
+.frequentTravelers .addTraveler .btn a{
+  color: #fff;
+  font-size: .4267rem;
+  font-weight: 600;
+}

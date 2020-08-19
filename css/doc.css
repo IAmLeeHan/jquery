@@ -1,0 +1,59 @@
+#title{
+    padding: .5rem;
+    text-align: center;
+    font-weight: bold;
+    font-size: .64rem;
+}
+table{
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+.over{
+    color: green;
+}
+.development{
+    color: goldenrod;
+}
+.showUrl{
+    display: none;
+}
+.showBtn{
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    color: cornflowerblue;
+}
+.num{
+    padding: .3rem;
+}
+.num span{
+    margin-right: .2rem;
+}
+.num span:nth-child(2){
+    color: green;
+}
+.num span:nth-child(3){
+    color: goldenrod;
+}
+td:nth-child(1){
+    width: 2rem;
+}
+td:nth-child(2){
+    width: 2rem;
+}
+td:nth-child(3){
+    width: 2rem;
+}
+td:nth-child(4){
+    width: 2rem;
+}
+td:nth-child(5){
+    width: 2rem;
+}
+td:nth-child(6){
+    width: 2rem;
+}
+td:nth-child(7){
+    width: 2rem;
+}

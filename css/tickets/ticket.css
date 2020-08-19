@@ -1,0 +1,376 @@
+.ticket .Header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: .64rem .5333rem;
+  z-index: 156;
+}
+.ticket .Header .select{
+  font-size: .3733rem;
+  font-weight: 600;
+  color: #000000;
+}
+.ticket .Header .search{
+  width: 5.9467rem;
+  height: .8533rem;
+  padding-left: 1.0133rem;
+  background: url('../../images/tickets/ticket_sea.png') no-repeat;
+  background-size: 100% 100%;
+  line-height: .8533rem;
+}
+.ticket .Header .search a{
+  display: block;
+  width: 100%;
+  height: 100%;
+  font-size: .32rem;
+  font-weight: 400;
+  color: #AAAAAA;
+}
+.ticket .bannerSwiper{
+  padding: 0 .5333rem;
+  height: 2.6667rem;
+}
+/** swiper 2 **/
+.ticket .bannerSwiper .swiper-containerBw{
+  overflow: hidden;
+  height: 2.6667rem;
+  position: relative;
+}
+.ticket .bannerSwiper .swiper-containerBw .swiper-slide{
+  width: 100% !important;
+}
+.ticket .bannerSwiper .swiper-containerBw .swiper-slide .sBox{
+  width: 100%;
+  overflow: hidden;
+  border-radius: 4px;
+  box-shadow: 0 0 10px 2px rgba(0, 0, 0, 0.1);
+  position: relative;
+}
+.ticket .bannerSwiper .swiper-containerBw .swiper-slide .sBox img{
+  width: 100%;
+  height: 2.6667rem;
+  display: block;
+}
+.ticket .bannerSwiper .swiper-containerBw .swiper-pagination{
+  position: absolute;
+  left: calc(100% - 1.3333rem);
+  top: calc(100% - .4267rem);
+  width: 1.0667rem;
+}
+.ticket .bannerSwiper .swiper-containerBw .swiper-pagination .swiper-pagination-bullet{
+  width: .1067rem;
+  height: .1067rem;
+  margin:0 .0533rem;
+  background: #fff;
+}
+.ticket .bannerSwiper .swiper-containerBw .swiper-pagination .swiper-pagination-bullet-active{
+  width: .2133rem;
+  height: .1067rem;
+  margin:0 .0533rem;
+  background: #fff;
+  border-radius: .0533rem;
+}
+
+.ticket .popularMustPlay{
+  padding-left: .5333rem;
+  padding-bottom: .4267rem;
+  margin-top: .5333rem;
+  background: #F9FCFF;
+}
+.ticket .popularMustPlay .title{
+  padding: .32rem 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.ticket .popularMustPlay .title span{
+  font-size: .53333rem;
+  line-height: .746666rem;
+  color: #333333;
+  font-weight: 600;
+}
+.ticket .popularMustPlay .title a{
+  font-size: .32rem;
+  line-height: .453333rem;
+  color: #5EBBFF;
+}
+/** swiper containerP **/
+.swiper-containerP{
+  overflow: hidden;
+  height: 5rem;
+}
+.swiper-containerP .swiper-slide{
+  width: 4.2667rem !important;
+}
+.swiper-containerP .swiper-slide .sBox{
+  width: 4.2667rem;
+  overflow: hidden;
+  border-radius: 4px;
+  box-shadow:0px 2px 10px 0px rgba(0,33,111,0.05);
+  position: relative;
+}
+.swiper-containerP .swiper-slide .sBox .famous{
+  width:1.0133rem;
+  height:.64rem;
+  background:linear-gradient(140deg,rgba(100,225,255,1) 0%,rgba(94,186,255,1) 100%);
+  border-radius:.1067rem 0px .1067rem 0px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  text-align: center;
+  line-height: .64rem;
+  color: #fff;
+  font-size: .2933rem;
+  font-weight: 400;
+}
+.swiper-containerP .swiper-slide .sBox img{
+  width: 4.2667rem;
+  height: 3.2rem;
+  display: block;
+}
+.swiper-containerP .swiper-slide .sBox div{
+  background: #fff;
+  padding: .213333rem;
+}
+.swiper-containerP .swiper-slide .sBox div h4{
+  font-size: .3733rem;
+  line-height: .533333rem;
+  font-weight: 600;
+  line-height: .5333rem;
+  color: #333333;
+  padding-bottom: .11rem;
+}
+.swiper-containerP .swiper-slide .sBox div span{
+  font-size: .3733rem;
+  margin-right: .2133rem;
+  line-height: .533333rem;
+  color: #FF7F7F;
+  font-weight: 600;
+}
+.swiper-containerP .swiper-slide .sBox div span:nth-of-type(2){
+  font-size: .2933rem;
+  line-height: .533333rem;
+  color: #999999;
+  font-weight: 400;
+  text-decoration: line-through;
+}
+.ticket .allTickets{
+  padding:.64rem .5333rem;
+}
+.ticket .allTickets h3{
+  font-size: .5333rem;
+  color: #333333;
+  font-weight: 600;
+}
+.ticket .allTickets .selectBox{
+  display: flex;
+  align-items: center;
+  line-height: .7467rem;
+  margin: .4267rem 0 .64rem 0;
+}
+.ticket .allTickets .selectBox p{
+  margin-right: .64rem;
+  font-weight: 400;
+  font-size: .32rem;
+  color: #999999;
+}
+.ticket .allTickets .selectBox .all{
+  font-size: .3733rem;
+  color: #333333;
+  font-weight: 600;
+}
+.ticket .allTickets .ticketItem {
+  display: flex;
+  margin-bottom: .64rem;
+}
+.ticket .allTickets .ticketItem .img{
+  width: 3.0933rem;
+  height: 2.4rem;
+}
+.ticket .allTickets .ticketItem img{
+  width: 100%;
+  height: 100%;
+}
+.ticket .allTickets .ticketItem .detail{
+  margin-left: .32rem;
+  flex: 1;
+}
+.ticket .allTickets .ticketItem .detail .name{
+  font-weight: 600;
+  font-size: .4267rem;
+  color: #333333;
+  line-height: .5867rem;
+}
+.ticket .allTickets .ticketItem .detail .suggest{
+  font-size: .32rem;
+  font-weight: 400;
+  color: #999999;
+  line-height: .4533rem;
+  margin-top: .2133rem;
+}
+.ticket .allTickets .ticketItem .detail .price{
+  font-size: .4267rem;
+  font-weight: 600;
+  line-height: .5867rem;
+  color: #FF7F7F;
+  margin-top: .56rem;
+  text-align: right;
+}
+.ticket .allTickets .ticketItem .detail .price span:nth-of-type(2){
+  font-size: .32rem;
+  font-weight: 400;
+  color: #666666;
+}
+.ticket .selected{
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top:0;
+  left:0;
+  background: rgba(0, 0, 0, 0.1);
+  z-index: 10;
+  display: none;
+}
+.ticket .selected .selectedPanel{
+  background: #fff;
+}
+.ticket .sonHeader{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: .64rem .5333rem;
+  z-index: 156;
+}
+.ticket .sonHeader .select{
+  font-size: .3733rem;
+  font-weight: 600;
+  color: #000000;
+}
+.ticket .sonHeader .search{
+  width: 5.9467rem;
+  height: .8533rem;
+  padding-left: 1.0133rem;
+  background: url('../../images/tickets/ticket_sea.png') no-repeat;
+  background-size: 100% 100%;
+  line-height: .8533rem;
+}
+.ticket .sonHeader .search a{
+  display: block;
+  width: 100%;
+  height: 100%;
+  font-size: .32rem;
+  font-weight: 400;
+  color: #AAAAAA;
+}
+.ticket .sonAllTickets{
+  padding:0 .5333rem;
+}
+.ticket .sonAllTickets h3{
+  font-size: .5333rem;
+  color: #333333;
+  font-weight: 600;
+}
+.ticket .sonAllTickets .selectBox{
+  display: flex;
+  align-items: center;
+  line-height: .7467rem;
+  padding-bottom: .2133rem;
+  /* margin: .4267rem 0 0 0; */
+}
+.ticket .sonAllTickets .selectBox p{
+  margin-right: .64rem;
+  font-weight: 400;
+  font-size: .32rem;
+  color: #999999;
+}
+.ticket .sonAllTickets .selectBox .active{
+  font-size: .3733rem;
+  color: #000000;
+  font-weight: 600;
+}
+.ticket .selected .list{
+  border-top: 1px solid #eee;
+  display: none;
+  /* padding: 0 .5333rem 0; */
+}
+.ticket .selected .show{
+  display: block;
+}
+.ticket .selected .list p{
+  height: 1.0667rem;
+  line-height: 1.3867rem;
+  font-size: .3733rem;
+  font-weight: 400;
+  color: #333333;
+  text-align: center;
+  line-height: 1.0667rem;
+}
+.ticket .selected .list .active{
+  color: #5EBBFF;
+}
+.ticket .selected .list p{
+  border-bottom: 1px solid #eee;
+}
+.ticket .selected .filterList{
+}
+.ticket .selected .filterList h3{
+  padding: 0 .5333rem;
+  font-size: .3733rem;
+  font-weight: 600;
+  color: #000000;
+  line-height: .5867rem;
+  margin: .2133rem 0;
+}
+.ticket .selected .filterList .btn{
+  display: flex;
+  padding: 0 .5333rem;
+  flex-wrap: wrap;
+  padding-bottom: .32rem;
+}
+.ticket .selected .filterList .btn p{
+  width: 1.6rem;
+  height: .8rem;
+  border: 1px solid #eee;
+  border-radius: .4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: .32rem;
+  color: #999999;
+  font-weight: 400;
+  line-height: .4533rem;
+  margin-right: .32rem;
+}
+.ticket .selected .filterList .btn .active{
+  background:linear-gradient(140deg,rgba(100,225,255,1) 0%,rgba(94,186,255,1) 100%);
+  color: #fff;
+}
+
+.ticket .selected .btn2{
+  display: flex;
+  justify-content: space-around;
+  box-shadow:2px 0px 4px 0px rgba(0,0,0,0.1);
+}
+.ticket .selected .btn2 p{
+  height: .8rem;
+  border:1px solid #eee;
+  margin: .2133rem 0;
+  padding: 0 .32rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: .4rem;
+}
+.ticket .selected .btn2 .clear{
+  font-size: .32rem;
+  color: #999999;
+  line-height: .4533rem;
+  font-weight: 400;
+}
+.ticket .selected .btn2 .submit{
+  background:linear-gradient(140deg,rgba(100,225,255,1) 0%,rgba(94,186,255,1) 100%);
+  color: #fff;
+  font-size: .32rem;
+  line-height: .4533rem;
+  font-weight: 400;
+}

@@ -1,0 +1,114 @@
+.videoPage{
+  background: #fff!important;
+}
+.videoPage .search{
+  padding: 0 .5333rem;
+  background: #fff;
+  margin-top: .4267rem;
+}
+.videoPage .VPsearch{
+  width: 7.8667rem;
+  height: .8533rem;
+  background: url('../images/videoPage/dest_icon_sea.png') no-repeat top left;
+  background-size: 100% 100%;
+  padding-left: 1.0667rem;
+  line-height: .8533rem;
+  color: #AAAAAA;
+  font-size: .32rem;
+  font-weight: 400;
+  margin: 0 auto;
+}
+.videoPage .VPsearch a{
+  display: block;
+  width: 100%;
+  height: 100%;
+  font-size: .32rem;
+  font-weight: 400;
+  color: #AAAAAA;
+}
+.videoPage .menu{
+  padding: 0 .5333rem;
+  margin: .4267rem 0;
+  /* display: flex;
+  justify-content: space-between; */
+  background: #fff;
+  overflow-x: auto;
+  overflow-y: hidden;
+  white-space: nowrap;
+}
+.videoPage .menu .default{
+  display: inline-block;
+  width:1.44rem;
+  height:.8533rem;
+  background:#F8F8F8;
+  border-radius: .4267rem;
+  font-size: .2933rem;
+  font-weight: 400;
+  color: #666666;
+  text-align: center;
+  line-height: .8533rem;
+  margin-right: .32rem;
+}
+.videoPage .menu .active{
+  color: #fff;
+  background:linear-gradient(140deg,rgba(100,225,255,1) 0%,rgba(94,186,255,1) 100%);
+}
+.videoPage .video{
+  padding: 0 .5333rem;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  display: none;
+}
+.videoPage .show{
+  display: block;
+}
+.videoPage .video .videoItem{
+  width: 100%;
+}
+.videoPage .video .videoItem .img{
+  width: 100%;
+  height: 4.4533rem;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  border-radius: .1067rem;
+  overflow: hidden;
+  /* align-items: center;
+  background: url('../images/index/swiper6.png') no-repeat top left;
+  background-size: 100% 100%; */
+}
+.videoPage .video .videoItem .VRImg{
+  width: 100%;
+  height: 100%;
+}
+.videoPage .video .videoItem .VR{
+  width: .8533rem;
+  height: .8533rem;
+  position: absolute;
+  top:0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin:auto;
+}
+.videoPage .video .videoItem p:nth-of-type(1){
+  width: 4.2667rem;
+  overflow: hidden;
+  text-overflow:ellipsis;
+  white-space: nowrap;
+  font-size: .4267rem;
+  font-weight: 600;
+  color:#333;
+  margin: .32rem 0 .2133rem;
+}
+.videoPage .video .videoItem p:nth-of-type(2){
+  width: 4.2667rem;
+  overflow: hidden;
+  text-overflow:ellipsis;
+  white-space: nowrap;
+  font-size: .3733rem;
+  font-weight: 400;
+  color:#666666;
+  margin-bottom: .64rem;
+}

@@ -1,0 +1,58 @@
+.none{
+    display: none;
+}
+.mycollect-tab{
+    /*border-top: 1px #EEEEEE solid;*/
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: .4rem .53333rem .2666rem;
+}
+.mycollect-tab li{
+    background: #F8F8F8;
+    height: .85333rem;
+    color: #666666;
+    font-size: .27333rem;
+    text-align: center;
+    line-height: .85333rem;
+    padding: 0 .42666rem;
+    border-radius: 20px;
+}
+.mycollect-tab .active{
+    background: linear-gradient(to bottom, #64E1FF 0%, #5EBAFF 100%);
+    color: #fff;
+}
+
+.collect-list{
+    padding: 0.32rem .53333rem 0;
+}
+.collect-list li{
+    position: relative;
+}
+.collect-list li .c-img{
+    width: 100%;
+    height: 4.4533rem;
+    border-radius: 3px;
+    overflow: hidden;
+}
+.collect-list li .vr-img{
+    width: .85333rem;
+    height: .85333rem;
+    position: absolute;
+    top: 1.8133rem;
+    left: 50%;
+    margin-left: -.32666rem;
+}
+.collect-list li h3{
+    font-size: .42666rem;
+    line-height: .64rem;
+    color: #333333;
+    padding: .32rem 0 .21333rem;
+    font-weight: bold;
+}
+.collect-list li p{
+    font-size: .37333rem;
+    line-height: .53333rem;
+    color: #666;
+    padding-bottom: .32rem;
+}

@@ -1,0 +1,134 @@
+.op0{
+    opacity: 0;
+}
+.articleBox{
+    border-top: 1px #eee solid;
+}
+.calendar{
+    padding: .64rem 0 .4rem;
+    margin: 0 .53333rem;
+    border-bottom: 1px #eee solid;
+}
+.recommend{
+    padding: .53333rem;
+}
+.recommend div{
+    position: relative;
+}
+.recommend div span{
+    background: rgba(0, 0, 0, 0.4);
+    color: #eee;
+    position: absolute;
+    bottom: .2666rem;
+    right: .2666rem;
+}
+.recommend .img{
+    width: 100%;
+    height: 5.333rem;
+}
+.recommend li{
+    padding-bottom: .64rem;
+}
+.recommend li h2{
+    color: #333;
+    font-size: .42666rem;
+    line-height: .58666rem;
+    padding: .32rem 0 .10667rem;
+    font-weight: bold;
+}
+.recommend li h3{
+    font-size: .32rem;
+    line-height: .45333rem;
+    color: #333;
+}
+.recommend li h3 span{
+    font-size: .2666rem;
+    color: #D8D8D8;
+    margin: 0 .1rem;
+}
+.recommend li p{
+    color: #999;
+    font-size: .32rem;
+    line-height: .45333rem;
+}
+
+.calendar .title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: .5rem;
+}
+.calendar .leftBox{
+    width: 1.5rem;
+    height: .74666rem;
+    border-radius: 20px;
+    border: 1px solid #5EBBFF;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 .05rem;
+}
+.calendar .rightBox{
+    width: 1.5rem;
+    height: .74666rem;
+    border-radius: 20px;
+    border: 1px solid #5EBBFF;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 .05rem;
+}
+.calendar .leftBox p{
+    color: #5EBBFF;
+    font-size: .37333rem;
+}
+.calendar .rightBox p{
+    color: #5EBBFF;
+    font-size: .37333rem;
+}
+.calendar .leftBox img{
+    width: .21333rem;
+    height: .4rem;
+}
+.calendar .rightBox img{
+    width: .21333rem;
+    height: .4rem;
+    margin-top: -2px;
+}
+.calendar .centerBox{
+    text-align: center;
+    font-size: .53333rem;
+    line-height: .7466rem;
+    color: #333333;
+}
+
+.content{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+    text-align: center;
+    margin: 0 -.48rem;
+}
+.content .child{
+    width: 1.413333rem;
+    height: 1.41333rem;
+    font-size: .37333rem;
+}
+.content .child .boxs{
+    width: 1.413333rem;
+    height: 1.41333rem;
+    border-radius: 50%;
+}
+.content .child .boxs p{
+    padding-top: .2rem;
+}
+.content .old{
+    color: #999999;
+}
+.today{
+    color: #fff;
+}
+.today .boxs{
+    background: #5EBBFF;
+}

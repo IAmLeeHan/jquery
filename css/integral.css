@@ -1,0 +1,26 @@
+.integralBox-child{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: .4266rem .5333rem;
+    border-top: 1px #EEEEEE solid;
+}
+.integralBox-child:last-child{
+    border-bottom: 1px #EEEEEE solid;
+}
+.integralBox-child h3{
+    color: #333333;
+    line-height: .58666rem;
+    font-size: .42666rem;
+    padding-bottom: .1066rem;
+}
+.integralBox-child p{
+    color: #999999;
+    font-size: .293333rem;
+    line-height: .42666rem;
+}
+.integralBox-child .rightBox{
+    color: #FF7F7F;
+    line-height: .58666rem;
+    font-size: .42666rem;
+}

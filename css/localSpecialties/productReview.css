@@ -1,0 +1,50 @@
+.productReview {
+  width: 100%;
+  background: #F5F5F5;
+  min-height: 100vh;
+  display: flex;
+  flex-flow: column;
+}
+.productReview .evaluationStatistics{
+  display: flex;
+  justify-content: space-between;
+  padding:0 .5333rem;
+  border-top:1px solid #EEEEEE;
+  background: #fff;
+  height: 1.8133rem;
+  align-items: center;
+}
+.productReview .evaluationStatistics li{
+  display: flex;
+  flex-flow: column;
+  justify-content: space-between;
+  align-items: center;
+  width:25%;
+  color: #666666;
+  font-size: .3733rem;
+  font-weight: 400;
+}
+.productReview .evaluationStatistics .active{
+  color: #5EBBFF;
+  font-weight: 600;
+}
+.productReview .evaluationStatistics li p{
+  margin: .0533rem 0;
+}
+.productReview .evaDetail{
+  flex: 1;
+  padding: 0 .5333rem;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  background: #fff;
+  margin-top: .1333rem;
+}
+.productReview .evaDetail img{
+  width: 5.6rem;
+  height: 6.4rem;
+}
+.productReview .evaDetail p{
+  margin-top: 1.0667rem;
+}

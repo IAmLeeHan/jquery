@@ -1,0 +1,49 @@
+.mySetting{
+}
+.item{
+    border-top: 1px #eee solid;
+}
+.item li{
+    padding: .64rem .53333rem;
+    border-bottom: 1px #eee solid;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.headimg{
+    width: .85333rem;
+    height: .85333rem;
+    border-radius: 50%;
+}
+.yjt{
+    width: .16rem;
+    height: .29333rem;
+    margin-left: .4rem;
+}
+.item li:last-child .yjt{
+    margin-left: 0;
+}
+.item li div{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.item li p{
+    color: #333;
+    line-height: .58666rem;
+    font-size: .42666rem;
+}
+.item li div span{
+    color: #999;
+    line-height: .58666rem;
+    font-size: .42666rem;
+}
+.item li div select{
+    color: #999;
+    line-height: .58666rem;
+    font-size: .42666rem;
+    border: 0;
+    background: transparent;
+    padding: 0;
+    margin: 0;
+}

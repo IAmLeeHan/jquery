@@ -1,0 +1,140 @@
+.tab-list{
+    padding: 0 .53333rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px #eee solid;
+}
+.tab-list p {
+    font-size: .37333rem;
+    line-height: .53333rem;
+    color: #999;
+    padding: .2666rem 0 .21333rem;
+}
+.tab-list div{
+    width: .85333rem;
+    height: .10667rem;
+    background: transparent;
+    border-radius: 4px;
+    margin: 0 auto;
+}
+.tab-list .tab-list-active p{
+    color: #5EBBFF;
+}
+.tab-list .tab-list-active div{
+    background: linear-gradient(to bottom, #64E1FF 0%, #5EBAFF 100%);
+}
+.bannerBox{
+    background: #F5F5F5;
+    border-radius: 4px;
+    overflow: hidden;
+    margin: .42666rem .53333rem;
+}
+.banner-search{
+    width: 7.546666rem;
+    height: .85533rem;
+    background: url(../images/index/fdj.jpg) no-repeat .32rem center;
+    background-size: .55rem;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: .32rem;
+    padding-left: 1.1rem;
+}
+.banner-search a{
+    color: #AAAAAA;
+}
+.none{
+    display: none;
+}
+.find-tab{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0 .53333rem .2666rem;
+}
+.find-tab li{
+    background: #F8F8F8;
+    height: .85333rem;
+    color: #666666;
+    font-size: .27333rem;
+    text-align: center;
+    line-height: .85333rem;
+    padding: 0 .42666rem;
+    border-radius: 20px;
+    margin-right: .64rem;
+}
+.find-tab .active{
+    background: linear-gradient(to bottom, #64E1FF 0%, #5EBAFF 100%);
+    color: #fff;
+}
+.recommend{
+    padding: .53333rem;
+}
+.recommend div{
+    position: relative;
+}
+.recommend div span{
+    background: rgba(0, 0, 0, 0.4);
+    color: #eee;
+    position: absolute;
+    bottom: .2666rem;
+    right: .2666rem;
+}
+.recommend .img{
+    width: 100%;
+    height: 5.333rem;
+}
+.recommend li{
+    padding-bottom: .64rem;
+}
+.recommend li h2{
+    color: #333;
+    font-size: .42666rem;
+    line-height: .58666rem;
+    padding: .32rem 0 .10667rem;
+    font-weight: bold;
+}
+.recommend li h3{
+    font-size: .32rem;
+    line-height: .45333rem;
+    color: #333;
+}
+.recommend li h3 span{
+    font-size: .2666rem;
+    color: #D8D8D8;
+    margin: 0 .1rem;
+}
+.recommend li p{
+    color: #999;
+    font-size: .32rem;
+    line-height: .45333rem;
+}
+
+.LVGL .recommend{
+    overflow: hidden;
+}
+.LVGL .recommend li {
+    width: calc( 50% - .148rem );
+    float: left;
+}
+.LVGL .img{
+    width: 100%;
+    height: 3.2rem;
+}
+.LVGL .recommend li:nth-child(2n){
+    margin-left: .294rem;
+}
+.LVGL .recommend li h2{
+    color: #666666;
+    font-size: .37333rem;
+    line-height: .58666rem;
+    padding: .32rem 0 .10667rem;
+}
+.recommend img{
+    border-radius: 4px;
+}
+.cTab{
+    margin-bottom: .7rem;
+}

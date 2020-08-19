@@ -1,0 +1,98 @@
+.shippingAddress {
+  border-top: 1px #eee solid;
+  padding: 0 .53333rem 3.6rem;
+}
+
+.shippingAddress ul li {
+  padding: .64rem 0;
+  border-bottom: 1px #eee solid;
+  display: flex;
+  /* justify-content: space-between; */
+  align-items: center;
+}
+
+.shippingAddress ul li .checked {
+  width: .4267rem;
+  height: .4267rem;
+  background: url('../../images/tickets/disabled@2x.png') no-repeat;
+  background-size: 100% 100%;
+  margin-right: .4267rem;
+}
+
+.shippingAddress ul li .active {
+  background: url('../../images/tickets/checked.png') no-repeat;
+  background-size: 100% 100%;
+}
+
+.info h3 {
+  font-size: .42666rem;
+  color: #333333;
+  line-height: .58666rem;
+  font-weight: bold;
+  padding-bottom: .21333rem;
+}
+
+.info h3 span {
+  margin-right: .42666rem;
+}
+
+.info p {
+  font-size: .32rem;
+  color: #999;
+  line-height: .45333rem;
+}
+
+.info p i {
+  font-style: normal;
+  color: #FF7F7F;
+}
+
+
+.shippingAddressBack .submit {
+  width: calc(100% - 1.0667rem);
+  height: 1.3867rem;
+  padding: 0 .5333rem;
+  border-top: 1px solid #eee;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+}
+
+.shippingAddressBack .submit .selectAll {
+  display: flex;
+  align-items: center;
+}
+
+.shippingAddressBack .submit .selectAll .checked {
+  width: .4267rem;
+  height: .4267rem;
+  background: url('../../images/tickets/disabled@2x.png') no-repeat;
+  background-size: 100% 100%;
+  margin-right: .2133rem;
+}
+.shippingAddressBack .submit .selectAll .active{
+  background: url('../../images/tickets/checked.png') no-repeat;
+  background-size: 100% 100%;
+}
+
+.shippingAddressBack .submit .selectAll span {
+  font-size: .3733rem;
+  font-weight: 400;
+  line-height: .5333rem;
+  color: #666;
+}
+
+.shippingAddressBack .submit .deleteBtn {
+  width: 1.6rem;
+  height: .96rem;
+  background: linear-gradient(140deg, rgba(100, 225, 255, 1) 0%, rgba(94, 186, 255, 1) 100%);
+  text-align: center;
+  line-height: .96rem;
+  color: #fff;
+  font-size: .3733rem;
+  font-weight: 400;
+  border-radius: .4267rem;
+}

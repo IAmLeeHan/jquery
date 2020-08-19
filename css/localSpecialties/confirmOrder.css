@@ -1,0 +1,390 @@
+.confirmOrder {
+  /* width: 10rem; */
+  background: #F5F5F5;
+  min-height: 100vh;
+  position: relative;
+}
+
+.confirmOrder .userInfo {
+  /* width: 8.9333rem; */
+  padding: .5333rem;
+  border-top: 1px solid #EEEEEE;
+  background: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.confirmOrder .userInfo .info p:first-child {
+  font-size: .4267rem;
+  color: #333333;
+  font-weight: 600;
+  line-height: .5867rem;
+  margin-bottom: .2133rem;
+  ;
+}
+
+.confirmOrder .userInfo .info p:first-child span:first-child {
+  margin-right: .4267rem;
+}
+
+.confirmOrder .userInfo .info p:last-child {
+  font-size: .32rem;
+  color: #999999;
+  font-weight: 400;
+  line-height: .4533rem;
+}
+.confirmOrder .userInfo .info p:last-child i{
+  font-style: normal;
+  font-size: .32rem;
+  color: #FF7F7F;
+  font-weight: 400;
+  line-height: .4533rem;
+}
+
+.confirmOrder .userInfo img {
+  width: .32rem;
+  height: .32rem;
+}
+
+.confirmOrder .productInfo {
+  /* width: 8.9333rem; */
+  padding: .5333rem .5333rem 0 .5333rem;
+  background: #fff;
+  margin-top: .2133rem;
+}
+
+.confirmOrder .productInfo .storeName {
+  font-size: .3733rem;
+  color: #333333;
+  font-weight: 600;
+}
+
+.confirmOrder .productInfo .productSpecifications {
+  display: flex;
+  padding: .2133rem 0 .4267rem;
+}
+
+.confirmOrder .productInfo .productSpecifications img {
+  width: 2.4rem;
+  height: 2.4rem;
+  border-radius: .1067rem;
+  margin-right: .4267rem;
+}
+
+.confirmOrder .productInfo .productSpecifications .wordDescription h6 {
+  font-size: .4267rem;
+  color: #333333;
+  font-weight: 600;
+}
+
+.confirmOrder .productInfo .productSpecifications .wordDescription p:nth-of-type(1) {
+  font-size: .3733rem;
+  color: #666666;
+  font-weight: 400;
+  margin-top: .2133rem;
+}
+
+.confirmOrder .productInfo .productSpecifications .wordDescription p:nth-of-type(1) span:first-child {
+  padding-right: .64rem;
+}
+
+.confirmOrder .productInfo .productSpecifications .wordDescription p:nth-of-type(2) {
+  margin-top: .64rem;
+  font-size: .3733rem;
+}
+
+.confirmOrder .productInfo .productSpecifications .wordDescription p:nth-of-type(2) span:first-child {
+  color: #FF7F7F;
+  padding-right: .4267rem;
+}
+
+.confirmOrder .productInfo .productSpecifications .wordDescription p:nth-of-type(2) span:last-child {
+  color: #333333;
+}
+
+.confirmOrder .purchaseQuantity {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 1.44rem;
+   border-top: 1px solid #eee;
+  border-bottom: 1px solid #eee;
+}
+
+.confirmOrder .purchaseQuantity .title {
+  font-size: .3733rem;
+  color: #333333;
+  font-weight: 600;
+}
+
+.confirmOrder .purchaseQuantity .quantityIncreaseOrDecrease {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.confirmOrder .purchaseQuantity .quantityIncreaseOrDecrease .less {
+  width: .5867rem;
+  height: .5867rem;
+  background: url('../../images/localSpecialties/jisuan_03.png') no-repeat;
+  background-size: 100% 100%;
+}
+
+.confirmOrder .purchaseQuantity .quantityIncreaseOrDecrease p {
+  padding: 0 .4267rem;
+  font-size: .3733rem;
+  color: #666666;
+  font-weight: 600;
+}
+
+.confirmOrder .purchaseQuantity .quantityIncreaseOrDecrease .plus {
+  width: .5867rem;
+  height: .5867rem;
+  background: #F5F5F5;
+  border-radius: 50%;
+  text-align: center;
+  line-height: .5867rem;
+  color: #666666;
+  background: url('../../images/localSpecialties/jisuan_05.png') no-repeat;
+  background-size: 100% 100%;
+}
+
+.confirmOrder .chooseCoupon {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 1.44rem;
+}
+
+.confirmOrder .chooseCoupon .title {
+  font-size: .3733rem;
+  color: #333333;
+  font-weight: 600;
+}
+
+.confirmOrder .chooseCoupon .quantityIncreaseOrDecrease {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.confirmOrder .chooseCoupon .quantityIncreaseOrDecrease span {
+  font-size: .2933rem;
+  color: #999999;
+  font-weight: 400;
+}
+
+.confirmOrder .chooseCoupon .quantityIncreaseOrDecrease img {
+  width: .2933rem;
+  height: .2933rem;
+  margin-left: .2133rem;
+}
+
+.confirmOrder .deliveryNotes {
+  border-top: 1px solid #EEEEEE;
+  background: #fff;
+  padding: 0 .5333rem;
+}
+
+.confirmOrder .deliveryNotes .deliveryMethod {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 1.1733rem;
+}
+
+.confirmOrder .deliveryNotes .deliveryMethod p {
+  display: flex;
+  align-items: center;
+}
+
+.confirmOrder .deliveryNotes .deliveryMethod p:first-child span:first-child {
+  font-size: .3733rem;
+  color: #333333;
+  font-weight: 400;
+  padding-right: .4267rem;
+}
+
+.confirmOrder .deliveryNotes .deliveryMethod p:first-child span:last-child {
+  font-size: .3733rem;
+  color: #666666;
+  font-weight: 400;
+  padding-right: .4267rem;
+}
+
+.confirmOrder .deliveryNotes .deliveryMethod p:last-child span {
+  font-size: .3733rem;
+  color: #666666;
+  font-weight: 400;
+  padding-right: .1067rem;
+}
+
+.confirmOrder .deliveryNotes .deliveryMethod p:last-child img {
+  width: .32rem;
+  height: .32rem;
+}
+
+.confirmOrder .deliveryNotes .remarks {
+  display: flex;
+  align-items: center;
+  height: 1.1733rem;
+}
+
+.confirmOrder .deliveryNotes .remarks span {
+  font-size: .3733rem;
+  color: #333333;
+  font-weight: 400;
+  padding-right: 1.1733rem;
+}
+
+.confirmOrder .deliveryNotes .remarks p {
+  font-size: .3733rem;
+  color: #666666;
+  font-weight: 400;
+  padding-right: 1.1733rem;
+}
+
+.confirmOrder .paymentMethod {
+  padding: 0 .5333rem;
+  background: #fff;
+  margin-top: .1333rem;
+}
+
+.confirmOrder .paymentMethod .payType {
+  height: 1.3867rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.confirmOrder .paymentMethod .payType .name img {
+  width: 24px;
+  height: 24px;
+  margin-right: .32rem;
+}
+
+.confirmOrder .paymentMethod .payType .check {
+  width: .4rem;
+  height: .4rem;
+  background: url('../../images/localSpecialties/disabled@2x.png') no-repeat;
+  background-size: cover;
+}
+
+.confirmOrder .paymentMethod .payType .active {
+  width: .4rem;
+  height: .4rem;
+  background: url('../../images/localSpecialties/checked.png') no-repeat;
+  background-size: cover;
+}
+
+.confirmOrder .submitBox {
+  width: calc(100vw - 1.0667rem);
+  height: 1.3867rem;
+  padding: 0 .5333rem;
+  background: rgba(255, 255, 255, 1);
+  box-shadow: .0533rem 0 .1067rem 0 rgba(0, 0, 0, 0.1);
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.confirmOrder .submitBox .price {
+  display: flex;
+  align-items: center;
+}
+
+.confirmOrder .submitBox .price span:first-child {
+  font-size: .5333rem;
+  font-weight: 600;
+  color: #FF7F7F;
+  margin-right: .1067rem;
+}
+
+.confirmOrder .submitBox .price span:last-child {
+  font-size: .2933rem;
+  font-weight: 400;
+  color: #999999;
+  text-decoration: line-through;
+}
+
+.confirmOrder .submitBox .btnBox {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.confirmOrder .submitBox .btnBox span {
+  font-size: .32rem;
+  font-weight: 400;
+  color: #666666;
+}
+
+.confirmOrder .submitBox .btnBox img {
+  width: .2933rem;
+  height: .2933rem;
+  margin: 0 .48rem 0 .16rem;
+}
+
+.confirmOrder .submitBox .btnBox .submit {
+  width: 2.3467rem;
+  height: .96rem;
+  background: linear-gradient(140deg, rgba(100, 225, 255, 1) 0%, rgba(94, 186, 255, 1) 100%);
+  border-radius: .6933rem;
+  text-align: center;
+  line-height: .96rem;
+}
+.confirmOrder .submitBox .btnBox .submit span{
+  color: #fff;
+  font-size: .3733rem;
+  font-weight: 600;
+}
+.confirmOrder .detail{
+  width: 100vw;
+  height: calc(100% - 1.3867rem);
+  background: rgba(0, 0, 0, 0.1);
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: none;
+}
+.confirmOrder .detail .derailInfo{
+  width: 100vw;
+  height: 2.8rem;
+  background: #fff;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+.confirmOrder .detail .derailInfo .ticketPrice{
+  padding: 0 .5333rem;
+  height: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: .0267rem solid #EEEEEE;
+  font-size: .3733rem;
+  font-weight: 400;
+  color: #666666;
+}
+.confirmOrder .detail .derailInfo .ticketPrice span:last-child{
+  font-weight: 600;
+  color: #333;
+}
+.confirmOrder .detail .derailInfo .quantity{
+  padding: 0 .5333rem;
+  height: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: .3733rem;
+  font-weight: 400;
+  color: #666666;
+}
+.confirmOrder .detail .derailInfo .quantity span:last-child{
+  font-weight: 600;
+  color: #333;
+}

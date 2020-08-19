@@ -1,0 +1,114 @@
+.allCommentsBackup{
+  padding-bottom: 1.7067rem;
+}
+.allCommentsBackup .reviewsFromEveryone{
+   border-top: 1px solid #eee;
+  padding: .5333rem .5333rem .32rem .5333rem;
+  background: #fff;
+}
+
+.allCommentsBackup .reviewsFromEveryone .evaluationItem {
+  margin-top: .4267rem;
+  padding-bottom: .5333rem;
+  border-bottom: 1px solid #eee;
+}
+.allCommentsBackup .reviewsFromEveryone .evaluationItem:last-child {
+  border: 0;
+}
+
+.allCommentsBackup .reviewsFromEveryone .evaluationItem .state {
+  display: flex;
+  justify-content: space-between;
+}
+
+.allCommentsBackup .reviewsFromEveryone .evaluationItem .state .user {
+  display: flex;
+  align-items: center;
+}
+
+.allCommentsBackup .reviewsFromEveryone .evaluationItem .state .user .headImg {
+  width: .8533rem;
+  height: .8533rem;
+}
+
+.allCommentsBackup .reviewsFromEveryone .evaluationItem .state .user .infoBox{
+  margin-left: .2133rem;
+}
+
+.allCommentsBackup .reviewsFromEveryone .evaluationItem .address{
+  font-size: .2933rem;
+  font-weight: 400;
+  color: #999999;
+  line-height: .4267rem;
+  padding-left: 1.0667rem;
+}
+
+.allCommentsBackup .reviewsFromEveryone .evaluationItem .state .user .name {
+  font-size: .4rem;
+  color: #333333;
+  font-weight: 400;
+}
+
+.allCommentsBackup .reviewsFromEveryone .evaluationItem .state .likeBox{
+  display: flex;
+  align-items: center;
+}
+.allCommentsBackup .reviewsFromEveryone .evaluationItem .state .likeBox .like {
+  font-size: .2933rem;
+  color: #999999;
+  font-weight: 400;
+  padding-right: .1067rem;
+}
+
+.allCommentsBackup .reviewsFromEveryone .evaluationItem .state .likeBox .likeImg {
+  width: .32rem;
+  height: .32rem;
+}
+.allCommentsBackup .reviewsFromEveryone .evaluationItem .state .likeBox .active{
+  color: #55A1FF;
+}
+
+.allCommentsBackup .reviewsFromEveryone .evaluationItem .content {
+  width: 8.9333rem;
+  display: flex;
+  justify-content: flex-end;
+  line-height: .5333rem;
+  margin: .2133rem 0; 
+}
+
+.allCommentsBackup .reviewsFromEveryone .evaluationItem .content p {
+  width: 7.8667rem;
+  font-size: .32rem;
+  color: #666666;
+}
+
+.allCommentsBackup .reviewsFromEveryone .evaluationItem .time {
+  margin-left: 1.0667rem;
+  font-size: .2933rem;
+  color: #999999;
+  font-weight: 400;
+}
+.allCommentsBackup .Footer{
+  width: calc(100% - 1.0667rem);
+  height: 1.7067rem;
+  padding: 0 .5333rem;
+  background: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  background: #fff;
+}
+.allCommentsBackup .Footer .input{
+  width: 8.4rem;
+  height:.8533rem;
+  background:rgba(245,245,245,1);
+  border-radius:.4267rem;
+  font-size: .32rem;
+  font-weight: 400;
+  color: #AAAAAA;
+  line-height: .8533rem;
+  padding: 0 .2667rem;
+}

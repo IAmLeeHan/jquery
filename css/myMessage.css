@@ -1,0 +1,63 @@
+.tab{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border-top: 1px #EEEEEE solid;
+    border-bottom: 1px #EEEEEE solid;
+    height: 1.3866rem;
+    text-align: center;
+}
+.tab li{
+    width: 50%;
+    color: #333333;
+    font-size: .37333rem;
+    font-weight: bold;
+    height: 1.3866rem;
+    line-height: 1.3866rem;
+}
+.tab .active{
+    color: #fff;
+    background: #5EBBFF;
+}
+.content{
+    margin: 0 .53333rem;
+}
+.content li{
+    padding: .64rem 0;
+    border-bottom: 1px #ececec solid;
+    display: flex;
+    justify-content: flex-start;
+}
+.content li img{
+    width: 1.06rem;
+    height: 1.06rem;
+    background: #FF7F7F;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-right: .21333rem;
+}
+.content li div{
+    flex: 1;
+}
+.content li div h2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: .1066rem;
+}
+.content li h2 strong{
+    color: #333333;
+    font-size: .37333rem;
+    line-height: .53333rem;
+    font-weight: bold;
+}
+.content li h2 span{
+    color: #999;
+    font-size: .29333rem;
+    line-height: .42666rem;
+}
+.content li p{
+    color: #999999;
+    font-size: .29333rem;
+    line-height: .42666rem;
+}

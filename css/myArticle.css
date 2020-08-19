@@ -1,0 +1,37 @@
+html,body{
+    height: 100%;
+}
+.articleBox{
+    padding: .64rem .53333rem;
+}
+.articleBox .articleBox-child{
+    display: flex;
+    justify-content: flex-start;
+    background: #fff;
+    border-radius: 4px;
+    margin-bottom: .42666rem;
+}
+.articleBox .articleBox-child img{
+    width: 2.3466rem;
+    height: 2.3466rem;
+    border-radius: 4px;
+    overflow: hidden;
+    margin-right: .21333rem;
+}
+.articleBox .articleBox-child .rightBox h3{
+    color: #333333;
+    font-size: .37333rem;
+    line-height: .53333rem;
+    padding: .21333rem 0 .106rem;
+}
+.articleBox .articleBox-child .rightBox p{
+    color: #999999;
+    font-size: .29333rem;
+    line-height: .42666rem;
+    padding: 0 0 .37333rem;
+}
+.articleBox .articleBox-child .rightBox span{
+    color: #666666;
+    font-size: .29333rem;
+    line-height: .42666rem;
+}

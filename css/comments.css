@@ -1,0 +1,58 @@
+.comments-list{
+    padding-top: .6233rem;
+    border-top: 1px #eee solid;
+}
+.comments-child{
+    padding: 0 .53333rem .32rem;
+    border-bottom: 1px #eee solid;
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: .32rem;
+}
+.comments-child .headimg{
+    width: .85333rem;
+    height: .85333rem;
+    display: block;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-right: .21333rem;
+}
+.comments-child .info{
+    flex: 1;
+}
+.comments-child .info h2{
+    line-height: .85333rem;
+    font-size: .37333rem;
+    color: #333333;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.comments-child .info h2 .time{
+    font-size: .29333rem;
+    color: #666;
+}
+.comments-child .info .rope{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.comments-child .info .rope img{
+    width: .29333rem;
+    height: .29333rem;
+    margin-right: .1rem;
+}
+.comments-child .info .rope{
+    padding-bottom: .2666rem;
+}
+.comments-child .info .rope span{
+    font-size: .29333rem;
+    color: #666666;
+    margin-left: .1rem;
+    margin-top: 2px;
+}
+.comments-child .info p{
+    color: #666666;
+    font-size: .32rem;
+    line-height: .45333rem;
+}

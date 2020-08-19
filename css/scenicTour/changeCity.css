@@ -1,0 +1,29 @@
+.changeCity .citysList{
+  padding: .5333rem;
+}
+.changeCity .citysList h3{
+  font-size: .4267rem;
+  font-weight: 600;
+  line-height: 22px;
+  color: #000000;
+  margin-bottom: .4267rem;
+}
+.changeCity .citysList .citys{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.changeCity .citysList .citys p{
+  width: 2.48rem;
+  height: .8533rem;
+  margin-bottom: .64rem;
+  background: #f8f8f8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  line-height: .4533rem;
+  border-radius: .4267rem;
+  font-size: .32rem;
+  font-weight: 400;
+  color: #666666;
+}

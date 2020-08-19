@@ -1,0 +1,431 @@
+/**
+  * 本地特产首页样式
+  * Author: louis xie
+  * Version: 1.0
+*/
+.bookTickets{
+  /* width: 100vw; */
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  position: relative;
+}
+.bookTickets .Header{
+  width: 100%;
+  height: 7.6533rem;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+.bookTickets .Header .top{
+  position: absolute;
+  top:0;
+  left: 0;
+  width: 100%;
+  height: 4.1867rem;
+  background:linear-gradient(140deg,rgba(100,225,255,1) 0%,rgba(94,186,255,1) 100%);
+}
+.bookTickets .Header .bottom{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 3.4667rem;
+  background: #F9FCFF;
+}
+.bookTickets .title{
+  width: calc(100% - 1.0667rem);
+  height: 1.2rem;
+  padding: 0 .5333rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  top:0;
+  left: 0;
+  z-index: 11;
+}
+.bg{
+  background: rgba(255, 255, 255, .4);
+}
+.bookTickets .title .leftBtn{
+  /* width: .2933rem; */
+  height: .56rem;
+}
+.bookTickets .title > span{
+  font-size: .3733rem;
+  font-weight: 400;
+  color: #fff;
+}
+.bookTickets .title .scanning{
+  width: .5333rem;
+}
+.bookTickets .searchInput{
+  width: 8.9333rem;
+  height: .9067rem;
+  margin-top:.6133rem;
+  display: flex;
+  justify-content: flex-end;
+  background: #fff;
+  background-image: url('../../images/localSpecialties/search-black.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: .1067rem;
+}
+.bookTickets .searchInput > input{
+  width: 8rem;
+  height: .9067rem;
+  border:0;
+}
+.bookTickets .picketInfo{
+  width: calc(100% - 1.0667rem);
+  background: #fff;
+  /* margin-top: .32rem; */
+}
+.bookTickets .picketInfo .projectName{
+  padding: .4267rem;
+}
+.bookTickets .picketInfo .projectName h3{
+  height: 1.4933rem;
+  font-size: .5333rem;
+  font-weight: 600;
+  line-height: 28px;
+  color: #333;
+}
+.bookTickets .picketInfo .projectName p{
+  font-size: .2933rem;
+  font-weight: 400;
+  line-height: 16px;
+  color: #999;
+  padding-top: .2133rem;
+}
+.bookTickets .picketInfo .date{
+  padding:0 .4267rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 1.3867rem;
+  border-top: 1px solid #eee;
+  border-bottom: 1px solid #eee;
+}
+.bookTickets .picketInfo .date p{
+  font-size: .3733rem;
+  font-weight: 600;
+  color: #333333;
+}
+.bookTickets .picketInfo .date span{
+  flex: 1;
+  font-size: .3733rem;
+  font-weight: 400;
+  color: #666;
+}
+.bookTickets .picketInfo .purchaseQuantity {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 1.44rem;
+  padding: 0 .4267rem;
+}
+
+.bookTickets .picketInfo .purchaseQuantity .num {
+  font-size: .3733rem;
+  color: #333333;
+  font-weight: 600;
+}
+
+.bookTickets .picketInfo .purchaseQuantity .quantityIncreaseOrDecrease {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.bookTickets .picketInfo .purchaseQuantity .quantityIncreaseOrDecrease .less {
+  width: .5867rem;
+  height: .5867rem;
+  background: url('../../images/tickets/jisuan_03.png') no-repeat;
+  background-size: 100% 100%;
+}
+
+.bookTickets .picketInfo .purchaseQuantity .quantityIncreaseOrDecrease p {
+  padding: 0 .4267rem;
+  font-size: .3733rem;
+  color: #666666;
+  font-weight: 600;
+}
+
+.bookTickets .picketInfo .purchaseQuantity .quantityIncreaseOrDecrease .plus {
+  width: .5867rem;
+  height: .5867rem;
+  background: url('../../images/tickets/jisuan_05.png') no-repeat;
+  background-size: 100% 100%;
+}
+.bookTickets .touristInformation{
+  width: calc(100% - 1.0667rem);
+  padding: 0 .5333rem;
+  margin-top: .5333rem;
+}
+.bookTickets .touristInformation .info{
+  display: flex;
+  align-items: center;
+  height: 1.6rem;
+}
+.bookTickets .touristInformation .info h3{
+  font-size: .5333rem;
+  font-weight: 600;
+  color: #333333;
+  padding-right: .2133rem;
+}
+.bookTickets .touristInformation .info p{
+  font-size: .2933rem;
+  font-weight: 400;
+  color: #999999;
+}
+.bookTickets .touristInformation .touristBox .tourist{
+  height: 1.3867rem;
+   border-top: 1px solid #eee;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.bookTickets .touristInformation .touristBox .tourist:last-child{
+  border-bottom: 1px solid #eee;
+}
+.bookTickets .touristInformation .touristBox .tourist h4{
+  width: 1.9467rem;
+  font-size: .3733rem;
+  font-weight: 600;
+  color: #333333;
+}
+.bookTickets .touristInformation .touristBox .tourist p{
+  flex: 1;
+  font-weight: 400;
+  font-size: .32rem;
+  color: #999999;
+}
+.bookTickets .touristInformation .touristBox .tourist span{
+  width: .64rem;
+  font-size: .2933rem;
+  font-weight: 400;
+  color: #5EBBFF;
+}
+.bookTickets .touristInformation .contactPhone{
+  display: flex;
+  align-items: center;
+  height: 1.3867rem;
+}
+.bookTickets .touristInformation .contactPhone h4{
+  width: 1.9467rem;
+  font-size: .3733rem;
+  font-weight: 600;
+  color: #333333;
+}
+.bookTickets .touristInformation .contactPhone input{
+  width: 100%;
+  font-size: .32rem;
+  font-weight: 600;
+  color: #333333; 
+  border:0;
+  margin-left: .4267rem;
+}
+input::-webkit-input-placeholder{
+  color: #999999;;
+  font-size: .32rem;
+  font-weight: 400;
+}
+input::-moz-placeholder{   /* Mozilla Firefox 19+ */
+  color: #999999;;
+  font-size: .32rem;
+  font-weight: 400;
+}
+input:-moz-placeholder{    /* Mozilla Firefox 4 to 18 */
+  color: #999999;;
+  font-size: .32rem;
+  font-weight: 400;
+}
+input:-ms-input-placeholder{  /* Internet Explorer 10-11 */
+  color: #999999;;
+  font-size: .32rem;
+  font-weight: 400;
+}
+.bookTickets .segmentation{
+  width: 100%;
+  height: .1333rem;
+  background-color: #F5F5F5;
+}
+.bookTickets .chooseCoupon {
+  width: calc(100% - 1.0667rem);
+  padding: 0 .5333rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 1.44rem;
+}
+
+.bookTickets .chooseCoupon .coupon {
+  font-size: .3733rem;
+  color: #333333;
+  font-weight: 600;
+}
+
+.bookTickets .chooseCoupon .quantityIncreaseOrDecrease {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.bookTickets .chooseCoupon .quantityIncreaseOrDecrease span {
+  font-size: .2933rem;
+  color: #999999;
+  font-weight: 400;
+}
+
+.bookTickets .chooseCoupon .quantityIncreaseOrDecrease img {
+  width: .2933rem;
+  height: .2933rem;
+  margin-left: .2133rem;
+}
+.bookTickets .paymentMethod {
+  width: calc(100% - 1.0667rem);
+  padding: 0 .5333rem;
+  background: #fff;
+  margin-top: .1333rem;
+}
+
+.bookTickets .paymentMethod .payType {
+  height: 1.3867rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.bookTickets .paymentMethod .payType .name img {
+  width: 24px;
+  height: 24px;
+  margin-right: .32rem;
+}
+
+.bookTickets .paymentMethod .payType .check {
+  width: .4rem;
+  height: .4rem;
+  background: url('../../images/localSpecialties/disabled@2x.png') no-repeat;
+  background-size: cover;
+}
+
+.bookTickets .paymentMethod .payType .active {
+  width: .4rem;
+  height: .4rem;
+  background: url('../../images/localSpecialties/checked.png') no-repeat;
+  background-size: cover;
+}
+.bookTickets .submitBox {
+  width: calc(100% - 1.0667rem);
+  height: 1.3867rem;
+  padding: 0 .5333rem;
+  background: rgba(255, 255, 255, 1);
+  box-shadow: .0533rem 0 .1067rem 0 rgba(0, 0, 0, 0.1);
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 10;
+}
+
+.bookTickets .submitBox .price {
+  display: flex;
+  align-items: center;
+}
+
+.bookTickets .submitBox .price span:first-child {
+  font-size: .5333rem;
+  font-weight: 600;
+  color: #FF7F7F;
+  margin-right: .1067rem;
+}
+
+.bookTickets .submitBox .price span:last-child {
+  font-size: .2933rem;
+  font-weight: 400;
+  color: #999999;
+  text-decoration: line-through;
+}
+
+.bookTickets .submitBox .btnBox {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.bookTickets .submitBox .btnBox span {
+  font-size: .32rem;
+  font-weight: 400;
+  color: #666666;
+}
+
+.bookTickets .submitBox .btnBox img {
+  width: .2933rem;
+  height: .2933rem;
+  margin: 0 .48rem 0 .16rem;
+}
+
+.bookTickets .submitBox .btnBox .submit {
+  width: 2.3467rem;
+  height: .96rem;
+  background: linear-gradient(140deg, rgba(100, 225, 255, 1) 0%, rgba(94, 186, 255, 1) 100%);
+  border-radius: .6933rem;
+  text-align: center;
+  line-height: .96rem;
+}
+.bookTickets .submitBox .btnBox .submit span{
+  color: #fff;
+  font-size: .3733rem;
+  font-weight: 600;
+}
+.bookTickets .detail{
+  width: 100%;
+  height: calc(100% - 1.3867rem);
+  background: rgba(0, 0, 0, 0.1);
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: none;
+}
+.bookTickets .detail .derailInfo{
+  width: 100%;
+  height: 2.8rem;
+  background: #fff;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+.bookTickets .detail .derailInfo .ticketPrice{
+  padding: 0 .5333rem;
+  height: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: .0267rem solid #EEEEEE;
+  font-size: .3733rem;
+  font-weight: 400;
+  color: #666666;
+}
+.bookTickets .detail .derailInfo .ticketPrice span:last-child{
+  font-weight: 600;
+  color: #333;
+}
+.bookTickets .detail .derailInfo .quantity{
+  padding: 0 .5333rem;
+  height: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: .3733rem;
+  font-weight: 400;
+  color: #666666;
+}
+.bookTickets .detail .derailInfo .quantity span:last-child{
+  font-weight: 600;
+  color: #333;
+}

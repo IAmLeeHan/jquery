@@ -1,0 +1,331 @@
+.characteristicVillage{
+  /* width: 10rem; */
+}
+.pageTitle{
+  font-size: .37333rem;
+  line-height: .5333rem;
+  color: #666666;
+  background: #FFFFFF;
+  text-align: center;
+  padding: .32rem 0;
+  position: relative;
+}
+.pageTitle .goback{
+  width: .58666rem;
+  height: .58666rem;
+  position: absolute;
+  left: .5333rem;
+  background: url("../../images/index/icon_black.png") no-repeat;
+  background-size: 100% 100%;
+}
+.pageTitle .goback p{
+  font-size: .3733rem;
+  font-weight: 400;
+  line-height: .5333rem;
+  color: #666666;
+}
+.characteristicVillage  .follow{
+  width:2.08rem;
+  height:.64rem;
+  border-radius: .32rem;
+  border:1px solid #999999;
+  position: absolute;
+  right: .5333rem;
+  top: .2667rem;
+  font-size: .2933rem;
+  font-weight: 400;
+  color: #666666;
+  line-height: .64rem;
+}
+.characteristicVillage .introduction{
+  /* padding: .5333rem; */
+}
+.characteristicVillage .introduction .sBox{
+  /* width: 10rem; */
+  overflow: hidden;
+  border-radius: 4px;
+  box-shadow: 0 0 10px 2px rgba(0, 0, 0, 0.1);
+  position: relative;
+}
+.characteristicVillage .introduction .sBox img{
+  width: 100%;
+  height: 5.866666rem;
+  display: block;
+}
+.characteristicVillage .introduction .sBox div{
+  width: 100%;
+  height: 5.866666rem;
+  background: rgba(0, 0, 0, 0.2);
+  padding: .213333rem;
+  position: absolute;
+  top: 0;
+  color: #fff;
+}
+.characteristicVillage .introduction .sBox div h4{
+  font-size: .533333rem;
+  font-weight: 500;
+  padding-bottom: .11rem;
+  padding-top: 3.513333rem;
+  text-indent: .42666rem;
+  display: flex;
+  align-items: center;
+  line-height: .7467rem;
+}
+.characteristicVillage .introduction .sBox div h4 span{
+  font-size: .2933rem;
+  line-height: .4267rem;
+}
+.characteristicVillage .introduction .sBox div p{
+  color: #fff;
+  font-size: .32rem;
+  margin-right: .213333rem;
+  margin-top: .2133rem;
+  line-height: .453333rem;
+  text-indent: .42666rem;
+}
+.characteristicVillage .storeName{
+  padding: 0 .5333rem;
+  margin: .4267rem 0;
+  font-size: .5333rem;
+  font-weight: 600;
+  color: #333333;
+  line-height: .7467rem;
+}
+.characteristicVillage .topBg img{
+  position: absolute;
+  top:0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  z-index: inherit;
+}
+.characteristicVillage .storeInfo {
+  /* width: 8.9333rem; */
+  padding: 0 .5333rem;
+  background: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.characteristicVillage .storeInfo .info p:first-child {
+  font-size: .3733rem;
+  color: #666666;
+  font-weight: 400;
+  line-height: .5867rem;
+  margin-bottom: .2133rem;
+  ;
+}
+.characteristicVillage .storeInfo .info p:first-child img{
+  width: .4267rem;
+  height: .4267rem;
+}
+
+.characteristicVillage .storeInfo .info p:first-child span {
+  margin-right: .4267rem;
+}
+
+.characteristicVillage .storeInfo .info p:last-child {
+  font-size: .3733rem;
+  color: #333333;
+  font-weight: 400;
+  line-height: .4533rem;
+  margin-left: .5867rem;
+}
+.characteristicVillage .storeInfo .info p:last-child img{
+  width: .4267rem;
+  height: .4267rem;
+}
+.characteristicVillage .segmentation{
+  /* width: 10rem; */
+  height: 5px;
+  background: #F5F5F5;
+  margin-top: .4267rem;
+}
+.characteristicVillage .content{
+  padding: .4267rem .5333rem;
+  margin-top: .08rem;
+}
+.characteristicVillage .content p{
+  font-size: .3733rem;
+  color: #666666;
+  font-weight: 400;
+  line-height: .5333rem;
+}
+.characteristicVillage .content img{
+  width: 100%;
+  height: 4.4533rem;
+  margin: .4267rem 0;
+}
+.characteristicVillage .reviewsFromEveryone{
+  padding: .5333rem .5333rem .32rem .5333rem;
+   border-top: 1px solid #eee;
+}
+.characteristicVillage .reviewsFromEveryone h3{
+  font-size: .5333rem;
+  color: #333;
+  font-weight: 600;
+}
+
+.characteristicVillage .reviewsFromEveryone .evaluationItem {
+  margin-top: .4267rem;
+  padding-bottom: .5333rem;
+  border-bottom: 1px solid #eee;
+  display: flex;
+  flex-flow: column;
+}
+
+.characteristicVillage .reviewsFromEveryone .evaluationItem .state {
+  display: flex;
+  justify-content: space-between;
+}
+
+.characteristicVillage .reviewsFromEveryone .evaluationItem .state .user {
+  display: flex;
+  align-items: center;
+}
+
+.characteristicVillage .reviewsFromEveryone .evaluationItem .state .user .headImg {
+  width: .8533rem;
+  height: .8533rem;
+}
+
+.characteristicVillage .reviewsFromEveryone .evaluationItem .state .user .name {
+  font-size: .4rem;
+  color: #333333;
+  font-weight: 400;
+  margin: 0 .2133rem;
+}
+
+.characteristicVillage .reviewsFromEveryone .evaluationItem .state .user .time {
+  font-size: .2933rem;
+  color: #999999;
+  font-weight: 400;
+}
+.characteristicVillage .reviewsFromEveryone .evaluationItem .state .likeBox{
+  display: flex;
+  align-items: center;
+}
+.characteristicVillage .reviewsFromEveryone .evaluationItem .state .likeBox .like {
+  font-size: .2933rem;
+  color: #999999;
+  font-weight: 400;
+  padding-right: .1067rem;
+}
+
+.characteristicVillage .reviewsFromEveryone .evaluationItem .state .likeBox .likeImg {
+  width: .32rem;
+  height: .32rem;
+}
+.characteristicVillage .reviewsFromEveryone .evaluationItem .state .likeBox .active{
+  color: #55A1FF;
+}
+
+.characteristicVillage .reviewsFromEveryone .evaluationItem .content {
+  flex:1;
+  display: flex;
+  justify-content: flex-end;
+  padding: 0;
+}
+
+.characteristicVillage .reviewsFromEveryone .evaluationItem .content p {
+  width: calc(100% - 1.0667rem);
+  font-size: .32rem;
+  color: #666666;
+}
+.characteristicVillage .inTheEnd{
+  text-align: center;
+  color: #999999;
+  font-size: .32rem;
+  font-weight: 400;
+  margin-bottom: .5333rem;
+}
+.characteristicVillage .Footer{
+  padding: 0 .5333rem;
+  width: calc(100% - 1.0667rem);
+  height: 1.7067rem;
+  border-top: 1px solid #eee;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 9;
+  background: #fff;
+}
+.characteristicVillage .Footer .input{
+  width: 4.48rem;
+  height: .8533rem;
+  border-radius: .4267rem;
+  background: #f5f5f5;
+  padding: 0 .4267rem;
+  color: #AAAAAA;
+  line-height: .8533rem;
+}
+.characteristicVillage .Footer .btn{
+  height: .96rem;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}
+.characteristicVillage .Footer .btn span{
+  font-size: .32rem;
+  font-weight: 400;
+  color: #666666;
+  padding-top: .1067rem;
+}
+.characteristicVillage .shareTo{
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.2);
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  z-index: 10;
+  display: none;
+}
+.characteristicVillage .shareTo .shareToPanel{
+  width:calc(100% - 1.0667rem);
+  height:3.12rem;
+  padding: .5333rem;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background:rgba(255,255,255,1);
+}
+.characteristicVillage .shareTo .shareToPanel .title{
+  display: flex;
+  justify-content: space-between;
+}
+.characteristicVillage .shareTo .shareToPanel .title span:first-child{
+  font-size: .3733rem;
+  font-weight: 400;
+  color: #666666;
+}
+.characteristicVillage .shareTo .shareToPanel .title span:last-child{
+  font-size: .4267rem;
+  font-weight: 400;
+  color: #55A1FF;
+}
+.characteristicVillage .shareTo .shareToPanel .shareBtn{
+  display: flex;
+  justify-content: space-between;
+  margin-top: .64rem;
+}
+.characteristicVillage .shareTo .shareToPanel .shareBtn .bth{
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}
+.characteristicVillage .shareTo .shareToPanel .shareBtn .bth img{
+  width: 1.28rem;
+  height: 1.28rem;
+  margin-bottom: .2133rem;
+}
+.characteristicVillage .shareTo .shareToPanel .shareBtn .bth span{
+  font-size: .32rem;
+  color: #666666;
+  font-weight: 400;
+}

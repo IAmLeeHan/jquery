@@ -1,0 +1,208 @@
+.merchantServiceVersion_2{
+  /* padding: 0 .5333rem; */
+  background: #fff;
+}
+.merchantServiceVersion_2 .Header{
+  height: 1.7333rem;
+  display: flex;
+  align-items: center;
+  padding: 0 .5333rem;
+  justify-content: space-between;
+}
+.merchantServiceVersion_2 .Header img:nth-of-type(1){
+  width: .5867rem;
+  height: .5867rem;
+}
+.merchantServiceVersion_2 .Header .search{
+  width: 7.0667rem;
+  height: .8533rem;
+  background: url('../../images/merchantServices/ticket_sea@2x.png') no-repeat;
+  background-size: cover;
+
+}
+.merchantServiceVersion_2 .Header .search a{
+  display: block;
+  width: 7.0667rem;
+  height: .8533rem;
+}
+.merchantServiceVersion_2 .Header img:nth-of-type(2){
+  width: .64rem;
+  height: .64rem;
+}
+.merchantServiceVersion_2 .banner{
+  width: 8.9333rem;
+  height: 4.48rem;
+  margin-bottom: .64rem;
+}
+.merchantServiceVersion_2 .banner img{
+  width: 100%;
+  height: 100%;
+}
+.merchantServiceVersion_2 .menu{
+  width: 8.9333rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  font-size: .32rem;
+  line-height: .45333rem;
+  color: #666666;
+}
+.merchantServiceVersion_2 .menu li img{
+  width: 1.386666rem;
+  height: 1.386666rem;
+  display: block;
+  margin: 0 auto;
+}
+.merchantServiceVersion_2 .allBusinesses{
+  /* margin-top: .64rem; */
+}
+.merchantServiceVersion_2 .allBusinesses h2{
+  font-size: .5333rem;
+  font-weight: 600;
+  color: #333333;
+  line-height: .7467rem;
+}
+.merchantServiceVersion_2 .select{
+  display: flex;
+  align-items: center;
+  margin: .2133rem 0 .48rem;
+  position: relative;
+}
+.merchantServiceVersion_2 .select .active{
+  font-size: .3733rem;
+  font-weight: 600;
+  color: #333333;
+  line-height: .5333rem;
+}
+.merchantServiceVersion_2 .select .all{
+  padding-left: .5333rem;
+}
+.merchantServiceVersion_2 .select .seType{
+  margin-left:.64rem;
+}
+.merchantServiceVersion_2 .select p{
+  font-size: .32rem;
+  font-weight: 400;
+  color: #999999;
+  line-height: .4533rem;
+}
+.merchantServiceVersion_2 .select .shadow{
+  width: 100%;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.1);
+  position: absolute;
+  top: .96rem;
+  left: 0;
+  display: none;
+  z-index: 10;
+}
+
+.merchantServiceVersion_2 .select .selectListBox{
+  position: absolute;
+  width: 100%;
+  background: #fff;
+  top: 0;
+  left: 0;
+  z-index: 10;
+}
+.merchantServiceVersion_2 .select .selectList{
+  border-top: 1px solid #eee;
+}
+
+.merchantServiceVersion_2 .select .selectList h3{
+  height: 1.0667rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 1px solid #eee;
+}
+.merchantServiceVersion_2 .select .selectList h3 span{
+  font-size: .3733rem;
+  color: #666666;
+  font-weight: 400;
+}
+
+.merchantServiceVersion_2 .select .selectList .checked span{
+  font-size: .3733rem;
+  color: #666666;
+  font-weight: 400;
+  color: #5EBAFF;
+}
+.merchantServiceVersion_2 .select .type{
+  display: none;
+}
+.merchantServiceVersion_2 .productSpecifications {
+  display: flex;
+  /* padding: 0 .5333rem; */
+  padding: .2133rem .5333rem;
+}
+
+.merchantServiceVersion_2 .productSpecifications:first-child {
+  display: flex;
+  padding-top: 0;
+}
+
+.merchantServiceVersion_2 .productSpecifications .productImg {
+  width: 3.0933rem;
+  height: 2.4rem;
+  border-radius: .1067rem;
+  margin-right: .4267rem;
+}
+
+.merchantServiceVersion_2 .productSpecifications .wordDescription{
+  flex: 1;
+}
+.merchantServiceVersion_2 .productSpecifications .wordDescription h6 {
+  font-size: .4267rem;
+  color: #333333;
+  font-weight: 600;
+  line-height: .5867rem;
+}
+.merchantServiceVersion_2 .productSpecifications .wordDescription .starts{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: .1867rem;
+}
+.merchantServiceVersion_2 .productSpecifications .wordDescription .starts img{
+  height: .32rem;
+  margin-bottom: .16rem;
+}
+.merchantServiceVersion_2 .productSpecifications .wordDescription .starts P:first-child span{
+  font-size: .32rem;
+  font-weight: 600;
+  color: #666666;
+}
+.merchantServiceVersion_2 .productSpecifications .wordDescription .starts P:last-child span{
+  font-size: .32rem;
+  font-weight: 400;
+  color: #999999;
+}
+.merchantServiceVersion_2 .productSpecifications .wordDescription .type{
+  font-size: .2933rem;
+  font-weight: 400;
+  color: #999999;
+  line-height: .4267rem;
+}
+.merchantServiceVersion_2 .productSpecifications .wordDescription .customerBenefits{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: .2667rem;
+}
+.merchantServiceVersion_2 .productSpecifications .wordDescription .customerBenefits p:first-child img{
+  width: .4267rem;
+  height: .4267rem;
+}
+.merchantServiceVersion_2 .productSpecifications .wordDescription .customerBenefits p:first-child span{
+  font-size: .2933rem;
+  font-weight: 400;
+  color: #999999;
+  line-height: .4267rem;
+}
+.merchantServiceVersion_2 .productSpecifications .wordDescription .customerBenefits p:last-child span{
+  font-size: .32rem;
+  font-weight: 400;
+  color: #FF7F7F;
+}

@@ -1,0 +1,106 @@
+.calendarT .pageTitle{
+  position: relative;
+}
+.calendarT .pageTitle .determine{
+  position: absolute;
+  right: .5333rem;
+  top:calc(50% - .5333rem / 2);
+  font-size: .3733rem;
+  line-height: .5333rem;
+  color: #999999;
+}
+.calendarT .week{
+  padding: 0 .5333rem;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #eee;
+}
+.calendarT .week li{
+  width: 1.2533rem;
+  height: 1.0667rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.calendarT .thisMonth h3{
+  padding: 0 .5333rem;
+  color: #333333;
+  font-weight: 600;
+  line-height: .64rem;
+  font-size: .4267rem;
+  margin-top: .32rem;
+}
+.calendarT .thisMonth ul{
+  padding: 0 .5333rem;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.calendarT .thisMonth li{
+  width: 1.2533rem;
+  height: 1.2533rem;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  margin: .2133rem 0;
+  border-radius: 50%;
+  color: #999999;
+}
+.calendarT .thisMonth .optional{
+  color: #666666;
+}
+.calendarT .thisMonth li span:nth-child(2){
+  font-size: .32rem;
+  font-weight: 400;
+}
+.calendarT .thisMonth .active span:nth-child(2){
+  color: #fff;
+}
+.calendarT .thisMonth .none{
+  visibility:hidden;
+}
+.calendarT .thisMonth .active{
+  background:linear-gradient(140deg,rgba(100,225,255,1) 0%,rgba(94,186,255,1) 100%);
+  color: #fff;
+}
+.calendarT .afterMonth h3{
+  padding: 0 .5333rem;
+  color: #333333;
+  font-weight: 600;
+  line-height: .64rem;
+  font-size: .4267rem;
+  margin-top: .32rem;
+}
+.calendarT .afterMonth ul{
+  padding: 0 .5333rem;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.calendarT .afterMonth li{
+  width: 1.2533rem;
+  height: 1.2533rem;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  margin: .2133rem 0;
+  border-radius: 50%;
+  color: #999999;
+}
+.calendarT .afterMonth .optional{
+  color: #666666;
+}
+.calendarT .afterMonth li span:nth-child(2){
+  font-size: .32rem;
+  font-weight: 400;
+}
+.calendarT .afterMonth .active span:nth-child(2){
+  color: #fff;
+}
+.calendarT .afterMonth .none{
+  visibility:hidden;
+}
+.calendarT .afterMonth .active{
+  background:linear-gradient(140deg,rgba(100,225,255,1) 0%,rgba(94,186,255,1) 100%);
+  color: #fff;
+}

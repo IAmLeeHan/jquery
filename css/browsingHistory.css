@@ -1,0 +1,43 @@
+.history{
+    padding: .8rem  .53333rem 0;
+    border-bottom: 1px #EEEEEE solid;
+}
+.history-child{
+    padding-bottom: .64rem;
+}
+.history-child h2{
+    color: #333333;
+    font-size: .37333rem;
+    line-height: .53333rem;
+    padding-bottom: .21333rem;
+}
+.history-child ul li{
+    display: flex;
+    justify-content: flex-start;
+}
+.history-child ul li .c-img{
+    width: 3.0933rem;
+    height: 2.4rem;
+    border-radius: 3px;
+    overflow: hidden;
+    margin-right: .32rem;
+}
+.history-child ul li div h3{
+    font-size: .42666rem;
+    line-height: .58666rem;
+    color: #333333;
+    padding-bottom: .21333rem;
+    font-weight: bold;
+}
+.history-child ul li div p{
+    font-size: .32rem;
+    line-height: .45333rem;
+    color: #999999;
+}
+.noMore{
+    font-size: .29333rem;
+    line-height: .42666rem;
+    color: #999999;
+    padding: .42666rem 0;
+    text-align: center;
+}

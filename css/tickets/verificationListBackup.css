@@ -1,0 +1,145 @@
+.verificationListBackup .confirmReceipt{
+  padding: .5333rem 0;
+  border-top: .0267rem solid #eeeeee;
+}
+.verificationListBackup .confirmReceipt .info{
+  display: flex;
+  justify-content: space-between;
+  padding: .4267rem;
+  background: #F9F9F9;
+}
+.verificationListBackup .confirmReceipt .info img{
+  width: 2.1333rem;
+  height: 2.1333rem;
+  border-radius: .1067rem;
+}
+.verificationListBackup .confirmReceipt .info .name{
+  flex: 1;
+  padding: .48rem .2133rem;
+  display: flex;
+  flex-flow: column;
+  justify-content: space-between;
+}
+.verificationListBackup .confirmReceipt .info .name p{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.verificationListBackup .confirmReceipt .info .name p:first-child span:first-child{
+  font-size: .3733rem;
+  font-weight: 600;
+  color: #333;
+}
+.verificationListBackup .confirmReceipt .info .name p:first-child span:last-child{
+  font-size: .3733rem;
+  font-weight: 400;
+  color: #333;
+}
+.verificationListBackup .confirmReceipt .info .name p:last-child span:first-child{
+  font-size: .32rem;
+  font-weight: 400;
+  color: #666;
+}
+.verificationListBackup .confirmReceipt .info .name p:last-child span:last-child{
+  font-size: .3733rem;
+  font-weight: 600;
+  color: #FF7F7F;
+}
+.verificationListBackup .confirmReceipt .btnBox{
+  padding: 0 .5333rem;
+  height: 1.8133rem;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.verificationListBackup .confirmReceipt .btnBox .cancel{
+  width:2.1333rem;
+  height:.8533rem;
+  border-radius:.4267rem;
+  border:1px solid rgba(238,238,238,1);
+  text-align: center;
+  line-height: .8533rem;
+  font-size: .3733rem;
+  font-weight: 400;
+  color: #999;
+}
+.verificationListBackup .confirmReceipt .btnBox .confirm{
+  width:2.1333rem;
+  height:.8533rem;
+  border-radius:.4267rem;
+  border:1px solid rgba(238,238,238,1);
+  text-align: center;
+  line-height: .8533rem;
+  font-size: .3733rem;
+  font-weight: 400;
+  color: #fff;
+  margin-left: .4267rem;
+  background:linear-gradient(140deg,rgba(94,187,255,1) 0%,rgba(94,186,255,1) 100%);
+}
+
+.verificationListBackup .segmentation{
+  width: 100vw;
+  height: .1333rem;
+  background: #F5F5F5;
+}
+.verificationListBackup .writeOff .user{
+  height: 1.28rem;
+  padding: .4267rem .5333rem;
+  border-bottom: .0267rem solid #eee;
+  line-height: .5333rem;
+  display: flex;
+  flex-flow: column;
+  justify-content: space-between;
+  border-bottom: .0267rem solid #eee;
+
+}
+.verificationListBackup .writeOff .user p span:first-child{
+  font-size: .3733rem;
+  font-weight: 400;
+  color: #333;
+}
+.verificationListBackup .writeOff .user p span:last-child{
+  font-size: .3733rem;
+  font-weight: 400;
+  color: #666666;
+}
+.verificationListBackup .verificationCode{
+  height: 1.4933rem;
+  padding: 0 .5333rem;
+  border-bottom: .0267rem solid #eee;
+  display: flex;
+  align-items: center;
+}
+.verificationListBackup .verificationCode span:nth-of-type(1){
+  font-size: .3733rem;
+  font-weight: 400;
+  color: #333;
+}
+.verificationListBackup .verificationCode span:nth-of-type(2){
+  flex: 1;
+  font-size: .3733rem;
+  font-weight: 400;
+  color: #666;
+}
+.verificationListBackup .verificationCode .state{
+  width: 1.3067rem;
+  height: .64rem;
+  background: url('../../images/tickets/ed_active.png') no-repeat;
+  background-size: 100% 100%;
+  margin-left: .4267rem;
+}
+.verificationListBackup .verificationCode .gover{
+  width: 1.3867rem;
+  height: .3733rem;
+  background: url('../../images/tickets/quhexiao_ddd.png') no-repeat;
+  background-size: 100% 100%;
+  margin-left: .4533rem;
+}
+.verificationListBackup .verificationCode .noUse{
+  background: url('../../images/tickets/un_Active.png') no-repeat;
+  background-size: 100% 100%;
+}
+.verificationListBackup .verificationCode .noGO{
+  background: url('../../images/tickets/quhexiao_666.png') no-repeat;
+  background-size: 100% 100%;
+}

@@ -1,0 +1,123 @@
+.none{
+    display: none;
+}
+.myorder-tab{
+    border-top: 1px #EEEEEE solid;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: .4rem .53333rem .2666rem;
+}
+.myorder-tab li{
+    background: #F8F8F8;
+    height: .85333rem;
+    color: #666666;
+    font-size: .27333rem;
+    text-align: center;
+    line-height: .85333rem;
+    padding: 0 .42666rem;
+    border-radius: 20px;
+}
+.myorder-tab .active{
+    background: linear-gradient(to bottom, #64E1FF 0%, #5EBAFF 100%);
+    color: #fff;
+}
+
+.content .title{
+    font-size: .32rem;
+    line-height: .42666rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: .1866rem .53333rem;
+}
+.content .product{
+    background: #F9F9F9;
+    padding: .2666rem .53333rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.content .product img {
+    width: 2.13rem;
+    height: 2.13rem;
+    display: block;
+    border-radius: 4px;
+    overflow: hidden;
+    margin-right: .21333rem;
+}
+.content .product-info{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.content .product-info h3{
+    color: #333333;
+    font-size: .3733rem;
+    line-height: .53333rem;
+    font-weight: bold;
+    padding-bottom: .21333rem;
+}
+.content .product-info p{
+    color: #666666;
+    font-size: .32rem;
+    line-height: .45333rem;
+}
+.content .product-num{
+    font-size: .37333rem;
+    line-height: .53333rem;
+    color: #333;
+}
+.content .product-price {
+    padding: .32rem .53333rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #666666;
+    font-size: .37333rem;
+    line-height: .53333rem;
+    border-bottom: 1px #EEEEEE solid;
+}
+.content .product-price div{
+    color: #999999;
+}
+.content .product-price div span{
+    color: #FF7F7F;
+}
+.content  .edit{
+    padding: .42666rem .53333rem;
+    display: flex;
+    justify-content: flex-end;
+}
+.content  .edit div{
+    width: 2.133rem;
+    height: .85333rem;
+    line-height: .85333rem;
+    text-align: center;
+    border-radius: 20px;
+    margin-left: .42666rem;
+    font-size: .37333rem;
+}
+.content  .edit .stop{
+    border: 1px #EEEEEE solid;
+    color: #999999;
+}
+.content  .edit .pay{
+    background: linear-gradient(to bottom, #64E1FF 0%, #5EBAFF 100%);
+    color: #fff;
+}
+.content .noprodect{
+    padding: 2.4rem 0 0;
+}
+.content .noprodect img{
+    width: 5.6rem;
+    height: 6.4rem;
+    display: block;
+    margin: 0 auto 1.066rem;
+}
+.content .noprodect p{
+    color: #333333;
+    font-size: .37333rem;
+    line-height: .53333rem;
+    text-align: center;
+}

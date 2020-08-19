@@ -1,0 +1,102 @@
+.none{
+    display: none;
+}
+.personal-headers{
+    background: url("../images/personal/bg.png") no-repeat;
+    background-size: 100% 100%;
+    position: relative;
+}
+.personal-headers .setting{
+    width: .58666rem;
+    height: .58666rem;
+    position: absolute;
+    right: .53333rem;
+    top: 0.2rem;
+}
+.personal-headers .info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.17333rem .53333rem .64rem;
+}
+.personal-headers .info .headimg{
+    width: 1.7066rem;
+    height: 1.7066rem;
+}
+.personal-headers .info .rightBtn{
+    width: 2.13444rem;
+    height: 1.28rem;
+}
+.personal-headers .tool{
+    padding: 0 .53333rem .64rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+}
+.personal-headers .tool a{
+    color: #fff;
+}
+.personal-headers .tool li p{
+    font-size: .32rem;
+    line-height: .45333rem;
+    padding-top: .07rem;
+}
+.personal-headers .tool li span{
+    font-size: .42666rem;
+    line-height: .58666rem;
+    position: relative;
+}
+.personal-headers .tool li span img{
+    width: .16rem;
+    height: .16rem;
+    position: absolute;
+    top: 0;
+    right: -0.2rem;
+}
+/* menu-content */
+.menu-content{
+    background: #F9FCFF;
+    padding: .5333rem;
+}
+.menu-content-child a{
+    color: #333333;
+}
+.menu-content .menu-content-child{
+    padding: .5333rem;
+    margin-bottom: .5333rem;
+    background: #fff;
+    border-radius: 3px;
+    box-shadow: 0 0 10px 2px rgba(0, 0, 0, .1);
+}
+.menu-content .menu-content-child h3{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: .64rem;
+}
+.menu-content .menu-content-child h3 strong{
+    color: #333333;
+    font-size: .4266rem;
+    line-height: .58666rem;
+    font-weight: bold;
+}
+.menu-content .menu-content-child h3 span{
+    color: #999999;
+    font-size: .32rem;
+    line-height: .45333rem;
+}
+.menu-content .route{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #666;
+    font-size: .32rem;
+    line-height: .45333rem;
+}
+.menu-content .route img{
+    width: .58666rem;
+    display: block;
+    margin: 0 auto .21333rem;
+}

@@ -1,0 +1,42 @@
+.commonSetting{
+    border-top: 1px #eee solid;
+    padding: 0 .53333rem 1.6rem;
+}
+.commonSetting ul li{
+    padding: .64rem 0;
+    border-bottom: 1px #eee solid;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.commonSetting ul li p{
+    color: #333333;
+    font-size: .42666rem;
+    line-height: .58666rem;
+}
+.commonSetting ul li div{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.commonSetting ul li div img{
+    width: .16rem;
+    height: .29333rem;
+    margin-left: .4rem;
+}
+.commonSetting ul li div span{
+    color: #999;
+    font-size: .42666rem;
+    line-height: .58666rem;
+}
+.submit{
+    height: 1.17333rem;
+    line-height: 1.17333rem;
+    margin: 0 .53333rem;
+    background: linear-gradient(to bottom, #64E1FF 0%,#5EBAFF 100%);
+    color: #fff;
+    font-size: .42666rem;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 3px;
+}

@@ -1,0 +1,49 @@
+.businessDistrict{
+  min-height: 100vh;
+  background: #fff!important;
+}
+.businessDistrict .content{
+  padding: 0 .5333rem;
+  border-top: 1px solid #eee;
+}
+.businessDistrict .content h2{
+  margin: .32rem 0;
+  font-size: .3733rem;
+  color: #333;
+  font-weight: 400;
+}
+.businessDistrict .content .Item{
+  /* width:8.9333rem; */
+  height:4.6667rem;
+  position: relative;
+  border-radius:.1067rem;
+  margin-bottom: .4267rem;
+  position: relative;
+}
+.businessDistrict .content img{
+  width: 100%;
+  height: 100%;
+}
+.businessDistrict .content .Item .name{
+  position: absolute;
+  bottom: .4267rem;
+  left: .4267rem;
+  font-size: .3733rem;
+  font-weight: 400;
+  color: #fff;
+  line-height: .5333rem;
+  position: absolute;
+  bottom: .4267rem;
+  left: .4267rem;
+}
+.businessDistrict .content .Item .distance{
+  position: absolute;
+  bottom: .4267rem;
+  right: .4267rem;
+  font-size: .3733rem;
+  font-weight: 400;
+  color: #fff;
+  line-height: .5333rem;
+  bottom: .4267rem;
+  right: .4267rem;
+}

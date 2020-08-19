@@ -1,0 +1,60 @@
+.none{
+    display: none;
+}
+.myorder-tab{
+    border-top: 1px #EEEEEE solid;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: .4rem .53333rem .2666rem;
+}
+.myorder-tab li{
+    background: #F8F8F8;
+    height: .85333rem;
+    color: #666666;
+    font-size: .27333rem;
+    text-align: center;
+    line-height: .85333rem;
+    padding: 0 .42666rem;
+    border-radius: 20px;
+}
+.myorder-tab .active{
+    background: linear-gradient(to bottom, #64E1FF 0%, #5EBAFF 100%);
+    color: #fff;
+}
+
+.exchange-list li h3{
+    padding: .42666rem .53333rem .32rem;
+    font-size: .42666rem;
+    line-height: .58666rem;
+    color: #333333;
+}
+.exchange-list li .detail{
+    background: #F5F5F5;
+    padding: .2666rem .53333rem;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.exchange-list li .detail img{
+    width: 2.133rem;
+    height: 2.133rem;
+    margin-right: .21333rem;
+}
+.exchange-list li .detail span{
+    color: #333333;
+    font-size: .42666rem;
+}
+.exchange-list li .info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #333333;
+    font-size: .42666rem;
+    line-height: .58666rem;
+    padding: .32rem .53333rem .42666rem;
+    border-bottom: 1px #eee solid;
+}
+.exchange-list li .info span{
+    color: #FF7F7F;
+}

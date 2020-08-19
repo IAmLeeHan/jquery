@@ -1,0 +1,407 @@
+.clickOnTheMap {
+  height: 100vh;
+  display: flex;
+  flex-flow: column;
+}
+
+.clickOnTheMap .menu {
+  padding: 0 .5333rem;
+  margin-top: .2133rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.clickOnTheMap .menu li {
+  font-size: .4267rem;
+  font-weight: 400;
+  line-height: .5867rem;
+  color: #999999;
+  height: .6933rem;
+}
+
+.clickOnTheMap .menu .active {
+  font-weight: 600;
+  line-height: .5867rem;
+  color: #5EBBFF;
+  border-bottom: .0533rem solid #5EBBFF;
+}
+
+.clickOnTheMap .map {
+  margin-top: .2133rem;
+  width: 100%;
+  /* height: 100%; */
+  height: calc(100% - 2.6667rem);
+  overflow: hidden;
+  flex: 1;
+  position: relative;
+}
+
+.clickOnTheMap .map img {
+  width: 100%;
+  height: 100%;
+}
+
+.clickOnTheMap .map .speakStart {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: calc(100% - 1.0667rem);
+  height: calc(100% - .8533rem);
+  padding: .4267rem .5333rem;
+  background: rgba(0, 0, 0, .1);
+  display: flex;
+  justify-content: space-between;
+  flex-flow: column;
+  display: none;
+}
+.clickOnTheMap .map .speakStart .explainPlay {
+  padding: 0 .5333rem;
+  height: 2.88rem;
+  background: #4a4a4a;
+  position: relative;
+  border-radius: .2133rem;
+  overflow: hidden;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.clickOnTheMap .map .speakStart .explainPlay .contral{
+  width: 1.28rem;
+  height: 1.28rem;;
+}
+.clickOnTheMap .map .speakStart .explainPlay .zanting{
+  background: url('../../images/scenicTour/shipinzanting_icon.png') no-repeat;
+  background-size: 100% 100%;
+}
+
+.clickOnTheMap .map .speakStart .explainPlay .play{
+  background: url('../../images/scenicTour/play.jpg') no-repeat;
+  background-size: 100% 100%;
+}
+
+.clickOnTheMap .map .speakStart .explainPlay .playInfo{
+  flex: 1;
+  margin-left: .5067rem;
+  display: flex;
+  flex-flow: column;
+  justify-content: space-between;
+}
+.clickOnTheMap .map .speakStart .explainPlay .playInfo h6{
+  font-size: .3733rem;
+  font-weight: 400;
+  line-height: .5333rem;
+  color: #fff;
+}
+.clickOnTheMap .map .speakStart .close{
+  position: absolute;
+  right: .32rem;
+  top: .32rem;
+  width: .4267rem;
+  height: .4267rem;
+}
+
+.clickOnTheMap .map .speakStart .position {
+  width: 100%;
+  background: #fff;
+  border-radius: .1067rem;
+  position: relative;
+}
+
+.clickOnTheMap .map .speakStart .position .close{
+  position: absolute;
+  top: .32rem;
+  right: .32rem;
+  width: .4267rem;
+  height: .4267rem;
+}
+
+.clickOnTheMap .map .speakStart .position .info{
+  padding: .2133rem;
+  display: flex;
+  justify-content: space-between;
+}
+.clickOnTheMap .map .speakStart .position .info img{
+  width: 1.9733rem;
+  height: 1.9733rem;
+}
+
+.clickOnTheMap .map .speakStart .position .info .detail{
+  flex: 1;
+  margin-left: .2133rem;
+  display: flex;
+  flex-flow: column;
+}
+
+.clickOnTheMap .map .speakStart .position .info .detail h2{
+  font-size: .4267rem;
+  color: #333333;
+  line-height: .5867rem;
+  font-weight: 600;
+}
+
+.clickOnTheMap .map .speakStart .position .info .detail img{
+  width: 1.3333rem;
+  height: .5333rem;
+  margin: .16rem 0;
+}
+.clickOnTheMap .map .speakStart .position .info .detail span{
+  font-size: .32rem;
+  line-height: .4533rem;
+  color: #999999;
+}
+
+.clickOnTheMap .map .speakStart .position .btn{
+  height: 1.0667rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-top: .0267rem solid #eee;
+}
+.clickOnTheMap .map .speakStart .position .btn p{
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+}
+.clickOnTheMap .map .speakStart .position .btn p img{
+  width: .4267rem;
+  height: .4267rem;
+  margin-right: .2133rem;
+}
+.clickOnTheMap .map .speakStart .position .btn p span{
+  font-size: .32rem;
+  font-weight: 400;
+  color: #999999;
+  line-height: .4533rem;
+}
+.clickOnTheMap .map .speakStart .playLine{
+  width: 6.0533rem;
+}
+.BarControl{
+	width:100%;
+	height:100%;
+	padding:0;
+	margin:0;
+	display:inline-block;
+	}
+
+.TheBar{
+	position:relative;
+	width:100%;
+	height:.0533rem;
+	border-radius: .0267rem;
+	-webkit-border-radius:.0533rem;
+	-moz-border-radius:.0533rem;
+	background:#EBE8E8;
+	overflow:visible;
+  }
+.box{
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+.box span{
+  color: #fff;
+  font-size: .2933rem;
+  line-height: .4267rem;
+  font-weight: 400;
+}
+.TheColorBar{
+	width:0px;
+	border-radius:0px;
+	-webkit-border-radius:0px;
+	-moz-border-radius:0px;
+	height:100%;
+	background:#3498DB;
+	float:left;
+	}
+.TimeBall{
+	width: .1067rem;
+	height: .1067rem;
+	border-radius: .0533rem;
+	-moz-border-radius: .0533rem;
+	-webkit-border-radius: .1333rem;
+	background:#3498DB;
+	position:absolute;
+	left:0;
+	top: -0.0267rem;
+	z-index:2;
+	cursor:pointer;
+	}
+.BarTimeBall{
+	width: .1067rem;
+	height: .1067rem;
+	border-radius: .0533rem;
+	-moz-border-radius: .0533rem;
+	-webkit-border-radius: .1333rem;
+	background:#3498DB;
+	position:absolute;
+	left:0;
+	top: -0.0267rem;
+	z-index:2;
+	cursor:pointer;
+	}
+.BarBeginTime,.BarFinishTime,.TheBar{
+	display:inline-block;
+	vertical-align:middle;
+	padding:0px;
+	}
+
+.clickOnTheMap .map .speakStart .explainPlay .playInfo p{
+  font-size: .2933rem;
+  font-weight: 400;
+  line-height: .4267rem;
+  color: #FFFFFF;
+  text-align: right;
+}
+
+.clickOnTheMap .pullBox {
+  width: 100%;
+  border-radius: .2133rem .2133rem 0 0;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  overflow: hidden;
+  background: #fff;
+  z-index: 9;
+}
+
+.clickOnTheMap .pullBox .showArea {
+  padding: 0 .5333rem;
+  height: 2.4rem;
+  z-index: 11;
+  position: relative;
+}
+.clickOnTheMap .pullBox .showArea .you{
+  width: .5333rem;
+  height: .5333rem;
+  position: absolute;
+  right: .5333rem;
+  top:calc(50% - .2667rem);
+  display: none;
+}
+
+.clickOnTheMap .shadow {
+  display: block;
+}
+
+.shactive {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, .1);
+}
+
+.clickOnTheMap .pullBox .showArea p {
+  width: 1.0667rem;
+  height: .0533rem;
+  background: #eeeeee;
+  margin: .32rem auto 0;
+}
+
+.clickOnTheMap .pullBox .showArea h3 {
+  font-size: .4267rem;
+  font-weight: 600;
+  line-height: .5867rem;
+  color: #333333;
+  margin: .32rem 0 .0533rem;
+}
+
+.clickOnTheMap .pullBox .showArea span {
+  font-size: .32rem;
+  font-weight: 400;
+  line-height: .4533rem;
+  color: #999999;
+}
+
+.clickOnTheMap .pullBox .hideArea {
+  height: 13.3333rem;
+  border-top: .0267rem solid #eeeeee;
+  padding: .64rem .5333rem 0;
+  z-index: 11;
+  display: none;
+  overflow-y: auto;
+}
+
+.clickOnTheMap .pullBox .hideArea .scenicItem {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: .4267rem;
+}
+
+.clickOnTheMap .pullBox .hideArea .scenicItem .img {
+  width: 2.3467rem;
+  height: 2.3467rem;
+}
+
+.clickOnTheMap .pullBox .hideArea .scenicItem .img img {
+  width: 100%;
+  height: 100%;
+}
+
+.clickOnTheMap .pullBox .hideArea .scenicItem .name {
+  flex: 1;
+  margin-left: .32rem;
+}
+
+.clickOnTheMap .pullBox .hideArea .scenicItem .name h3 {
+  font-size: .4267rem;
+  color: #333333;
+  line-height: .5867rem;
+  font-weight: 600;
+  margin: .56rem 0 .2133rem;
+}
+
+.clickOnTheMap .pullBox .hideArea .scenicItem .name .active {
+  color: #55A1FF;
+}
+
+.clickOnTheMap .pullBox .hideArea .scenicItem .name span {
+  font-size: .32rem;
+  font-weight: 400;
+  line-height: .4533rem;
+  color: #999999;
+}
+
+.clickOnTheMap .pullBox .hideArea .scenicItem .goBtn {
+  display: flex;
+  align-items: center;
+  flex-flow: column;
+  margin-top: .5333rem;
+}
+
+.clickOnTheMap .pullBox .hideArea .scenicItem .goBtn img {
+  width: .64rem;
+  height: .64rem;
+  margin-bottom: .2133rem;
+}
+
+.clickOnTheMap .pullBox .hideArea .scenicItem .goBtn span {
+  font-size: .32rem;
+  font-weight: 400;
+  line-height: .4533rem;
+  color: #999999;
+}
+
+.clickOnTheMap .pullBox .hideArea .scenicItem .speakBtn {
+  display: flex;
+  align-items: center;
+  flex-flow: column;
+  margin-top: .5333rem;
+  margin-left: .6133rem;
+}
+
+.clickOnTheMap .pullBox .hideArea .scenicItem .speakBtn img {
+  width: .64rem;
+  height: .64rem;
+  margin-bottom: .2133rem;
+}
+
+.clickOnTheMap .pullBox .hideArea .scenicItem .speakBtn span {
+  font-size: .32rem;
+  font-weight: 400;
+  line-height: .4533rem;
+  color: #333333;
+}
